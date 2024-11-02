@@ -1,0 +1,2529 @@
+2024-10-29 20:35:55,735 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-29 20:35:55,741 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-29 20:35:55,752 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-29 20:35:55,758 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-29 20:35:55,768 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-29 20:35:55,848 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-29 20:35:55,852 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-29 20:35:55,869 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-29 20:35:55,870 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-29 20:35:55,872 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-29 20:35:55,873 - INFO - [pid 58689] Worker Worker(salt=518223359, workers=1, host=Erlina, username=istywhyerlina, pid=58689) done      Extract()
+2024-10-29 20:35:55,874 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-29 20:35:55,875 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-29 20:35:55,875 - DEBUG - Asking scheduler for work...
+2024-10-29 20:35:55,875 - DEBUG - Done
+2024-10-29 20:35:55,875 - DEBUG - There are no more tasks to run at this time
+2024-10-29 20:35:55,875 - INFO - Worker Worker(salt=518223359, workers=1, host=Erlina, username=istywhyerlina, pid=58689) was stopped. Shutting down Keep-Alive thread
+2024-10-29 20:35:55,876 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-29 20:40:19,537 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-29 20:40:19,543 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-29 20:40:19,551 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-29 20:40:19,555 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-29 20:40:19,563 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-29 20:40:19,641 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-29 20:40:19,648 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-29 20:40:19,661 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-29 20:40:19,661 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-29 20:40:19,664 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-29 20:40:19,666 - INFO - [pid 61766] Worker Worker(salt=5568223888, workers=1, host=Erlina, username=istywhyerlina, pid=61766) done      Extract()
+2024-10-29 20:40:19,667 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-29 20:40:19,668 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-29 20:40:19,668 - DEBUG - Asking scheduler for work...
+2024-10-29 20:40:19,668 - DEBUG - Done
+2024-10-29 20:40:19,668 - DEBUG - There are no more tasks to run at this time
+2024-10-29 20:40:19,669 - INFO - Worker Worker(salt=5568223888, workers=1, host=Erlina, username=istywhyerlina, pid=61766) was stopped. Shutting down Keep-Alive thread
+2024-10-29 20:40:19,669 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-29 20:40:45,145 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-29 20:40:45,151 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-29 20:40:45,158 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-29 20:40:45,161 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-29 20:40:45,169 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-29 20:40:45,243 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-29 20:40:45,247 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-29 20:40:45,263 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-29 20:40:45,263 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-29 20:40:45,264 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-29 20:40:45,266 - INFO - [pid 62089] Worker Worker(salt=4025643477, workers=1, host=Erlina, username=istywhyerlina, pid=62089) done      Extract()
+2024-10-29 20:40:45,267 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-29 20:40:45,268 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-29 20:40:45,269 - DEBUG - Asking scheduler for work...
+2024-10-29 20:40:45,269 - DEBUG - Done
+2024-10-29 20:40:45,269 - DEBUG - There are no more tasks to run at this time
+2024-10-29 20:40:45,269 - INFO - Worker Worker(salt=4025643477, workers=1, host=Erlina, username=istywhyerlina, pid=62089) was stopped. Shutting down Keep-Alive thread
+2024-10-29 20:40:45,270 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-29 20:41:08,378 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-29 20:41:08,384 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-29 20:41:08,392 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-29 20:41:08,396 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-29 20:41:08,406 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-29 20:41:08,485 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-29 20:41:08,490 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-29 20:41:08,502 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-29 20:41:08,502 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-29 20:41:08,506 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-29 20:41:08,506 - INFO - [pid 62480] Worker Worker(salt=5765470189, workers=1, host=Erlina, username=istywhyerlina, pid=62480) done      Extract()
+2024-10-29 20:41:08,508 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-29 20:41:08,508 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-29 20:41:08,508 - DEBUG - Asking scheduler for work...
+2024-10-29 20:41:08,509 - DEBUG - Done
+2024-10-29 20:41:08,509 - DEBUG - There are no more tasks to run at this time
+2024-10-29 20:41:08,509 - INFO - Worker Worker(salt=5765470189, workers=1, host=Erlina, username=istywhyerlina, pid=62480) was stopped. Shutting down Keep-Alive thread
+2024-10-29 20:41:08,510 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-29 21:16:15,382 - INFO - Read Load Query - SUCCESS
+2024-10-29 21:16:15,416 - INFO - Read Extracted Data - SUCCESS
+2024-10-29 21:16:15,480 - INFO - Connect to DWH - SUCCESS
+2024-10-29 21:16:15,538 - ERROR - Truncate pactravel Schema in DWH - FAILED
+2024-10-29 21:16:15,538 - ERROR - [pid 86385] Worker Worker(salt=3124333614, workers=1, host=Erlina, username=istywhyerlina, pid=86385) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "pactravel.flight_bookings" does not exist
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/pipeline/load.py", line 128, in run
+    session.execute(query)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2256, in _execute_internal
+    result = conn.execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "pactravel.flight_bookings" does not exist
+
+[SQL: TRUNCATE TABLE pactravel.flight_bookings CASCADE]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/pipeline/load.py", line 140, in run
+    raise Exception("Failed to Truncate pactravel Schema in DWH")
+Exception: Failed to Truncate pactravel Schema in DWH
+2024-10-29 21:16:15,545 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-29 21:16:15,549 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-10-29 21:16:15,550 - DEBUG - Asking scheduler for work...
+2024-10-29 21:16:15,550 - DEBUG - Done
+2024-10-29 21:16:15,550 - DEBUG - There are no more tasks to run at this time
+2024-10-29 21:16:15,550 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-10-29 21:16:15,550 - DEBUG - There are 1 pending tasks unique to this worker
+2024-10-29 21:16:15,551 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-10-29 21:16:15,552 - INFO - Worker Worker(salt=3124333614, workers=1, host=Erlina, username=istywhyerlina, pid=86385) was stopped. Shutting down Keep-Alive thread
+2024-10-29 21:16:15,555 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 complete ones were encountered:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-10-30 07:34:47,316 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-30 07:34:47,349 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-30 07:34:47,354 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-30 07:34:47,356 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-30 07:34:47,366 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-30 07:34:47,406 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-30 07:34:47,410 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-30 07:34:47,417 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-30 07:34:47,417 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-30 07:34:47,420 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-30 07:34:47,421 - INFO - [pid 16764] Worker Worker(salt=2621677715, workers=1, host=Erlina, username=istywhyerlina, pid=16764) done      Extract()
+2024-10-30 07:34:47,422 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 07:34:47,422 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-30 07:34:47,422 - DEBUG - Asking scheduler for work...
+2024-10-30 07:34:47,422 - DEBUG - Done
+2024-10-30 07:34:47,422 - DEBUG - There are no more tasks to run at this time
+2024-10-30 07:34:47,423 - INFO - Worker Worker(salt=2621677715, workers=1, host=Erlina, username=istywhyerlina, pid=16764) was stopped. Shutting down Keep-Alive thread
+2024-10-30 07:34:47,423 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-30 07:35:03,143 - INFO - Read Load Query - SUCCESS
+2024-10-30 07:35:03,163 - INFO - Read Extracted Data - SUCCESS
+2024-10-30 07:35:03,200 - INFO - Connect to DWH - SUCCESS
+2024-10-30 07:35:03,224 - ERROR - Truncate pactravel Schema in DWH - FAILED
+2024-10-30 07:35:03,224 - ERROR - [pid 16924] Worker Worker(salt=7405344582, workers=1, host=Erlina, username=istywhyerlina, pid=16924) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "pactravel.flight_bookings" does not exist
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/pipeline/load.py", line 128, in run
+    session.execute(query)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2256, in _execute_internal
+    result = conn.execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "pactravel.flight_bookings" does not exist
+
+[SQL: TRUNCATE TABLE pactravel.flight_bookings CASCADE]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/pipeline/load.py", line 140, in run
+    raise Exception("Failed to Truncate pactravel Schema in DWH")
+Exception: Failed to Truncate pactravel Schema in DWH
+2024-10-30 07:35:03,232 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 07:35:03,233 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-10-30 07:35:03,233 - DEBUG - Asking scheduler for work...
+2024-10-30 07:35:03,233 - DEBUG - Done
+2024-10-30 07:35:03,234 - DEBUG - There are no more tasks to run at this time
+2024-10-30 07:35:03,234 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-10-30 07:35:03,234 - DEBUG - There are 1 pending tasks unique to this worker
+2024-10-30 07:35:03,234 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-10-30 07:35:03,234 - INFO - Worker Worker(salt=7405344582, workers=1, host=Erlina, username=istywhyerlina, pid=16924) was stopped. Shutting down Keep-Alive thread
+2024-10-30 07:35:03,234 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 complete ones were encountered:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-10-30 07:37:11,192 - INFO - Read Load Query - SUCCESS
+2024-10-30 07:37:11,226 - INFO - Read Extracted Data - SUCCESS
+2024-10-30 07:37:11,323 - INFO - Connect to DWH - SUCCESS
+2024-10-30 07:37:11,351 - ERROR - Truncate pactravel Schema in DWH - FAILED
+2024-10-30 07:37:11,352 - ERROR - [pid 18131] Worker Worker(salt=4884781285, workers=1, host=Erlina, username=istywhyerlina, pid=18131) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "pactravel.flight_bookings" does not exist
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/pipeline/load.py", line 128, in run
+    session.execute(query)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2256, in _execute_internal
+    result = conn.execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "pactravel.flight_bookings" does not exist
+
+[SQL: TRUNCATE TABLE pactravel.flight_bookings CASCADE]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/pipeline/load.py", line 140, in run
+    raise Exception("Failed to Truncate pactravel Schema in DWH")
+Exception: Failed to Truncate pactravel Schema in DWH
+2024-10-30 07:37:11,359 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 07:37:11,361 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-10-30 07:37:11,361 - DEBUG - Asking scheduler for work...
+2024-10-30 07:37:11,361 - DEBUG - Done
+2024-10-30 07:37:11,361 - DEBUG - There are no more tasks to run at this time
+2024-10-30 07:37:11,361 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-10-30 07:37:11,361 - DEBUG - There are 1 pending tasks unique to this worker
+2024-10-30 07:37:11,361 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-10-30 07:37:11,362 - INFO - Worker Worker(salt=4884781285, workers=1, host=Erlina, username=istywhyerlina, pid=18131) was stopped. Shutting down Keep-Alive thread
+2024-10-30 07:37:11,362 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 complete ones were encountered:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-10-30 07:40:21,049 - INFO - Read Load Query - SUCCESS
+2024-10-30 07:40:21,078 - INFO - Read Extracted Data - SUCCESS
+2024-10-30 07:40:21,167 - INFO - Connect to DWH - SUCCESS
+2024-10-30 07:40:21,199 - ERROR - Truncate pactravel Schema in DWH - FAILED
+2024-10-30 07:40:21,199 - ERROR - [pid 19955] Worker Worker(salt=8027180294, workers=1, host=Erlina, username=istywhyerlina, pid=19955) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "pactravel.flight_bookings" does not exist
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/pipeline/load.py", line 128, in run
+    session.execute(query)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2256, in _execute_internal
+    result = conn.execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "pactravel.flight_bookings" does not exist
+
+[SQL: TRUNCATE TABLE pactravel.flight_bookings CASCADE]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/pipeline/load.py", line 140, in run
+    raise Exception("Failed to Truncate pactravel Schema in DWH")
+Exception: Failed to Truncate pactravel Schema in DWH
+2024-10-30 07:40:21,205 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 07:40:21,206 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-10-30 07:40:21,206 - DEBUG - Asking scheduler for work...
+2024-10-30 07:40:21,206 - DEBUG - Done
+2024-10-30 07:40:21,207 - DEBUG - There are no more tasks to run at this time
+2024-10-30 07:40:21,207 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-10-30 07:40:21,207 - DEBUG - There are 1 pending tasks unique to this worker
+2024-10-30 07:40:21,207 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-10-30 07:40:21,207 - INFO - Worker Worker(salt=8027180294, workers=1, host=Erlina, username=istywhyerlina, pid=19955) was stopped. Shutting down Keep-Alive thread
+2024-10-30 07:40:21,207 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 complete ones were encountered:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-10-30 07:51:03,112 - INFO - Read Load Query - SUCCESS
+2024-10-30 07:51:03,132 - INFO - Read Extracted Data - SUCCESS
+2024-10-30 07:51:03,164 - INFO - Connect to DWH - SUCCESS
+2024-10-30 07:51:03,200 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-10-30 07:51:03,200 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-10-30 07:51:03,211 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-10-30 07:51:03,236 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-10-30 07:51:03,260 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-30 07:51:03,267 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-10-30 07:51:03,298 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-10-30 07:51:03,564 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-30 07:51:03,574 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-10-30 07:51:03,574 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-10-30 07:51:03,578 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-10-30 07:51:03,579 - INFO - [pid 26311] Worker Worker(salt=7817635233, workers=1, host=Erlina, username=istywhyerlina, pid=26311) done      Load()
+2024-10-30 07:51:03,579 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 07:51:03,580 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-10-30 07:51:03,580 - DEBUG - Asking scheduler for work...
+2024-10-30 07:51:03,580 - DEBUG - Done
+2024-10-30 07:51:03,580 - DEBUG - There are no more tasks to run at this time
+2024-10-30 07:51:03,581 - INFO - Worker Worker(salt=7817635233, workers=1, host=Erlina, username=istywhyerlina, pid=26311) was stopped. Shutting down Keep-Alive thread
+2024-10-30 07:51:03,581 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 complete ones were encountered:
+    - 1 Extract()
+* 1 ran successfully:
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-30 07:52:31,074 - INFO - Read Load Query - SUCCESS
+2024-10-30 07:52:31,092 - INFO - Read Extracted Data - SUCCESS
+2024-10-30 07:52:31,124 - INFO - Connect to DWH - SUCCESS
+2024-10-30 07:52:31,159 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-10-30 07:52:31,160 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-10-30 07:52:31,171 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-10-30 07:52:31,197 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-10-30 07:52:31,218 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-30 07:52:31,226 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-10-30 07:52:31,254 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-10-30 07:52:31,523 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-30 07:52:31,533 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-10-30 07:52:31,533 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-10-30 07:52:31,534 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-10-30 07:52:31,535 - INFO - [pid 27267] Worker Worker(salt=6740232149, workers=1, host=Erlina, username=istywhyerlina, pid=27267) done      Load()
+2024-10-30 07:52:31,535 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 07:52:31,536 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-10-30 07:52:31,536 - DEBUG - Asking scheduler for work...
+2024-10-30 07:52:31,537 - DEBUG - Done
+2024-10-30 07:52:31,537 - DEBUG - There are no more tasks to run at this time
+2024-10-30 07:52:31,537 - INFO - Worker Worker(salt=6740232149, workers=1, host=Erlina, username=istywhyerlina, pid=27267) was stopped. Shutting down Keep-Alive thread
+2024-10-30 07:52:31,538 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 complete ones were encountered:
+    - 1 Extract()
+* 1 ran successfully:
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-30 07:52:53,239 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-30 07:52:53,243 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-30 07:52:53,247 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-30 07:52:53,250 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-30 07:52:53,254 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-30 07:52:53,300 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-30 07:52:53,303 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-30 07:52:53,312 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-30 07:52:53,312 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-30 07:52:53,313 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-30 07:52:53,313 - INFO - [pid 27487] Worker Worker(salt=1478199419, workers=1, host=Erlina, username=istywhyerlina, pid=27487) done      Extract()
+2024-10-30 07:52:53,314 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 07:52:53,315 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-30 07:52:53,315 - DEBUG - Asking scheduler for work...
+2024-10-30 07:52:53,315 - DEBUG - Pending tasks: 1
+2024-10-30 07:52:53,315 - INFO - [pid 27487] Worker Worker(salt=1478199419, workers=1, host=Erlina, username=istywhyerlina, pid=27487) running   Load()
+2024-10-30 07:52:53,316 - INFO - Read Load Query - SUCCESS
+2024-10-30 07:52:53,338 - INFO - Read Extracted Data - SUCCESS
+2024-10-30 07:52:53,349 - INFO - Connect to DWH - SUCCESS
+2024-10-30 07:52:53,396 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-10-30 07:52:53,396 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-10-30 07:52:53,406 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-10-30 07:52:53,431 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-10-30 07:52:53,453 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-30 07:52:53,460 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-10-30 07:52:53,489 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-10-30 07:52:53,731 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-30 07:52:53,741 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-10-30 07:52:53,741 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-10-30 07:52:53,742 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-10-30 07:52:53,743 - INFO - [pid 27487] Worker Worker(salt=1478199419, workers=1, host=Erlina, username=istywhyerlina, pid=27487) done      Load()
+2024-10-30 07:52:53,743 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 07:52:53,743 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-10-30 07:52:53,743 - DEBUG - Asking scheduler for work...
+2024-10-30 07:52:53,744 - DEBUG - Done
+2024-10-30 07:52:53,744 - DEBUG - There are no more tasks to run at this time
+2024-10-30 07:52:53,744 - INFO - Worker Worker(salt=1478199419, workers=1, host=Erlina, username=istywhyerlina, pid=27487) was stopped. Shutting down Keep-Alive thread
+2024-10-30 07:52:53,744 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 2 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-30 07:53:11,073 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-30 07:53:11,077 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-30 07:53:11,081 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-30 07:53:11,084 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-30 07:53:11,088 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-30 07:53:11,132 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-30 07:53:11,135 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-30 07:53:11,143 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-30 07:53:11,143 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-30 07:53:11,143 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-30 07:53:11,144 - INFO - [pid 27680] Worker Worker(salt=7389404795, workers=1, host=Erlina, username=istywhyerlina, pid=27680) done      Extract()
+2024-10-30 07:53:11,145 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 07:53:11,146 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-30 07:53:11,146 - DEBUG - Asking scheduler for work...
+2024-10-30 07:53:11,146 - DEBUG - Pending tasks: 1
+2024-10-30 07:53:11,146 - INFO - [pid 27680] Worker Worker(salt=7389404795, workers=1, host=Erlina, username=istywhyerlina, pid=27680) running   Load()
+2024-10-30 07:53:11,146 - INFO - Read Load Query - SUCCESS
+2024-10-30 07:53:11,166 - INFO - Read Extracted Data - SUCCESS
+2024-10-30 07:53:11,178 - INFO - Connect to DWH - SUCCESS
+2024-10-30 07:53:11,234 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-10-30 07:53:11,234 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-10-30 07:53:11,244 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-10-30 07:53:11,269 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-10-30 07:53:11,292 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-30 07:53:11,301 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-10-30 07:53:11,333 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-10-30 07:53:11,570 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-30 07:53:11,580 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-10-30 07:53:11,580 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-10-30 07:53:11,581 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-10-30 07:53:11,581 - INFO - [pid 27680] Worker Worker(salt=7389404795, workers=1, host=Erlina, username=istywhyerlina, pid=27680) done      Load()
+2024-10-30 07:53:11,582 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 07:53:11,582 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-10-30 07:53:11,582 - DEBUG - Asking scheduler for work...
+2024-10-30 07:53:11,582 - DEBUG - Done
+2024-10-30 07:53:11,582 - DEBUG - There are no more tasks to run at this time
+2024-10-30 07:53:11,582 - INFO - Worker Worker(salt=7389404795, workers=1, host=Erlina, username=istywhyerlina, pid=27680) was stopped. Shutting down Keep-Alive thread
+2024-10-30 07:53:11,583 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 2 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-30 10:10:06,067 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-30 10:10:06,076 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-30 10:10:06,080 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-30 10:10:06,082 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-30 10:10:06,087 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-30 10:10:06,123 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-30 10:10:06,126 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-30 10:10:06,132 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-30 10:10:06,132 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-30 10:10:06,133 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-30 10:10:06,134 - INFO - [pid 148534] Worker Worker(salt=4998028600, workers=1, host=Erlina, username=istywhyerlina, pid=148534) done      Extract()
+2024-10-30 10:10:06,135 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 10:10:06,135 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-30 10:10:06,135 - DEBUG - Asking scheduler for work...
+2024-10-30 10:10:06,135 - DEBUG - Pending tasks: 1
+2024-10-30 10:10:06,135 - INFO - [pid 148534] Worker Worker(salt=4998028600, workers=1, host=Erlina, username=istywhyerlina, pid=148534) running   Load()
+2024-10-30 10:10:06,137 - INFO - Read Load Query - SUCCESS
+2024-10-30 10:10:06,158 - INFO - Read Extracted Data - SUCCESS
+2024-10-30 10:10:06,169 - INFO - Connect to DWH - SUCCESS
+2024-10-30 10:10:06,195 - ERROR - Truncate pactravel Schema in DWH - FAILED
+2024-10-30 10:10:06,195 - ERROR - [pid 148534] Worker Worker(salt=4998028600, workers=1, host=Erlina, username=istywhyerlina, pid=148534) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "pactravel.flight_bookings" does not exist
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/pipeline/load.py", line 128, in run
+    session.execute(query)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2256, in _execute_internal
+    result = conn.execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "pactravel.flight_bookings" does not exist
+
+[SQL: TRUNCATE TABLE pactravel.flight_bookings CASCADE]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/pipeline/load.py", line 140, in run
+    raise Exception("Failed to Truncate pactravel Schema in DWH")
+Exception: Failed to Truncate pactravel Schema in DWH
+2024-10-30 10:10:06,201 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 10:10:06,202 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-10-30 10:10:06,203 - DEBUG - Asking scheduler for work...
+2024-10-30 10:10:06,203 - DEBUG - Done
+2024-10-30 10:10:06,203 - DEBUG - There are no more tasks to run at this time
+2024-10-30 10:10:06,203 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-10-30 10:10:06,203 - DEBUG - There are 1 pending tasks unique to this worker
+2024-10-30 10:10:06,203 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-10-30 10:10:06,203 - INFO - Worker Worker(salt=4998028600, workers=1, host=Erlina, username=istywhyerlina, pid=148534) was stopped. Shutting down Keep-Alive thread
+2024-10-30 10:10:06,203 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-10-30 10:13:32,389 - INFO - Read Load Query - SUCCESS
+2024-10-30 10:13:32,404 - INFO - Read Extracted Data - SUCCESS
+2024-10-30 10:13:32,433 - INFO - Connect to DWH - SUCCESS
+2024-10-30 10:13:32,438 - ERROR - Truncate pactravel Schema in DWH - FAILED
+2024-10-30 10:13:32,438 - ERROR - [pid 151399] Worker Worker(salt=8757055940, workers=1, host=Erlina, username=istywhyerlina, pid=151399) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "pactravel.aircrafts" does not exist
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/pipeline/load.py", line 128, in run
+    session.execute(query)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2362, in execute
+    return self._execute_internal(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2256, in _execute_internal
+    result = conn.execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "pactravel.aircrafts" does not exist
+
+[SQL: TRUNCATE TABLE pactravel.aircrafts CASCADE]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/pipeline/load.py", line 140, in run
+    raise Exception("Failed to Truncate pactravel Schema in DWH")
+Exception: Failed to Truncate pactravel Schema in DWH
+2024-10-30 10:13:32,446 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 10:13:32,447 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-10-30 10:13:32,447 - DEBUG - Asking scheduler for work...
+2024-10-30 10:13:32,447 - DEBUG - Done
+2024-10-30 10:13:32,447 - DEBUG - There are no more tasks to run at this time
+2024-10-30 10:13:32,447 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-10-30 10:13:32,447 - DEBUG - There are 1 pending tasks unique to this worker
+2024-10-30 10:13:32,447 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-10-30 10:13:32,448 - INFO - Worker Worker(salt=8757055940, workers=1, host=Erlina, username=istywhyerlina, pid=151399) was stopped. Shutting down Keep-Alive thread
+2024-10-30 10:13:32,448 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 complete ones were encountered:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-10-30 10:25:55,731 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-30 10:25:55,748 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-30 10:25:55,752 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-30 10:25:55,754 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-30 10:25:55,759 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-30 10:25:55,794 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-30 10:25:55,798 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-30 10:25:55,805 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-30 10:25:55,805 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-30 10:25:55,807 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-30 10:25:55,807 - INFO - [pid 165929] Worker Worker(salt=2903486298, workers=1, host=Erlina, username=istywhyerlina, pid=165929) done      Extract()
+2024-10-30 10:25:55,808 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 10:25:55,809 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-30 10:25:55,809 - DEBUG - Asking scheduler for work...
+2024-10-30 10:25:55,809 - DEBUG - Pending tasks: 1
+2024-10-30 10:25:55,809 - INFO - [pid 165929] Worker Worker(salt=2903486298, workers=1, host=Erlina, username=istywhyerlina, pid=165929) running   Load()
+2024-10-30 10:25:55,813 - INFO - Read Load Query - SUCCESS
+2024-10-30 10:25:55,833 - INFO - Read Extracted Data - SUCCESS
+2024-10-30 10:25:55,843 - INFO - Connect to DWH - SUCCESS
+2024-10-30 10:25:55,883 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-10-30 10:25:55,883 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-10-30 10:25:55,891 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-10-30 10:25:55,908 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-10-30 10:25:55,926 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-30 10:25:55,934 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-10-30 10:25:55,958 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-10-30 10:25:56,266 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-30 10:25:56,275 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-10-30 10:25:56,275 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-10-30 10:25:56,276 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-10-30 10:25:56,276 - INFO - [pid 165929] Worker Worker(salt=2903486298, workers=1, host=Erlina, username=istywhyerlina, pid=165929) done      Load()
+2024-10-30 10:25:56,276 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 10:25:56,277 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-10-30 10:25:56,277 - DEBUG - Asking scheduler for work...
+2024-10-30 10:25:56,277 - DEBUG - Done
+2024-10-30 10:25:56,277 - DEBUG - There are no more tasks to run at this time
+2024-10-30 10:25:56,277 - INFO - Worker Worker(salt=2903486298, workers=1, host=Erlina, username=istywhyerlina, pid=165929) was stopped. Shutting down Keep-Alive thread
+2024-10-30 10:25:56,278 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 2 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-30 10:30:43,510 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-30 10:30:43,526 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-30 10:30:43,530 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-30 10:30:43,532 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-30 10:30:43,537 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-30 10:30:43,573 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-30 10:30:43,576 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-30 10:30:43,582 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-30 10:30:43,582 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-30 10:30:43,585 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-30 10:30:43,586 - INFO - [pid 171113] Worker Worker(salt=5406577032, workers=1, host=Erlina, username=istywhyerlina, pid=171113) done      Extract()
+2024-10-30 10:30:43,586 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 10:30:43,587 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-30 10:30:43,587 - DEBUG - Asking scheduler for work...
+2024-10-30 10:30:43,587 - DEBUG - Pending tasks: 1
+2024-10-30 10:30:43,587 - INFO - [pid 171113] Worker Worker(salt=5406577032, workers=1, host=Erlina, username=istywhyerlina, pid=171113) running   Load()
+2024-10-30 10:30:43,590 - INFO - Read Load Query - SUCCESS
+2024-10-30 10:30:43,615 - INFO - Read Extracted Data - SUCCESS
+2024-10-30 10:30:43,627 - INFO - Connect to DWH - SUCCESS
+2024-10-30 10:30:43,668 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-10-30 10:30:43,668 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-10-30 10:30:43,676 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-10-30 10:30:43,696 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-10-30 10:30:43,714 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-30 10:30:43,721 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-10-30 10:30:43,750 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-10-30 10:30:44,061 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-30 10:30:44,069 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-10-30 10:30:44,070 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-10-30 10:30:44,071 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-10-30 10:30:44,071 - INFO - [pid 171113] Worker Worker(salt=5406577032, workers=1, host=Erlina, username=istywhyerlina, pid=171113) done      Load()
+2024-10-30 10:30:44,071 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-30 10:30:44,072 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-10-30 10:30:44,072 - DEBUG - Asking scheduler for work...
+2024-10-30 10:30:44,072 - DEBUG - Done
+2024-10-30 10:30:44,072 - DEBUG - There are no more tasks to run at this time
+2024-10-30 10:30:44,072 - INFO - Worker Worker(salt=5406577032, workers=1, host=Erlina, username=istywhyerlina, pid=171113) was stopped. Shutting down Keep-Alive thread
+2024-10-30 10:30:44,073 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 2 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-31 07:31:35,325 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-31 07:31:35,347 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-31 07:31:35,353 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-31 07:31:35,355 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-31 07:31:35,370 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-31 07:31:35,414 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-31 07:31:35,417 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-31 07:31:35,425 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-31 07:31:35,425 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-31 07:31:35,428 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-31 07:31:35,428 - INFO - [pid 381467] Worker Worker(salt=3772412616, workers=1, host=Erlina, username=istywhyerlina, pid=381467) done      Extract()
+2024-10-31 07:31:35,429 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 07:31:35,430 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-31 07:31:35,430 - DEBUG - Asking scheduler for work...
+2024-10-31 07:31:35,430 - DEBUG - Pending tasks: 1
+2024-10-31 07:31:35,430 - INFO - [pid 381467] Worker Worker(salt=3772412616, workers=1, host=Erlina, username=istywhyerlina, pid=381467) running   Load()
+2024-10-31 07:31:35,436 - INFO - Read Load Query - SUCCESS
+2024-10-31 07:31:35,463 - INFO - Read Extracted Data - SUCCESS
+2024-10-31 07:31:35,480 - INFO - Connect to DWH - SUCCESS
+2024-10-31 07:31:35,534 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-10-31 07:31:35,534 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-10-31 07:31:35,544 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-10-31 07:31:35,569 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-10-31 07:31:35,592 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-31 07:31:35,600 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-10-31 07:31:35,633 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-10-31 07:31:36,067 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-31 07:31:36,083 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-10-31 07:31:36,083 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-10-31 07:31:36,085 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-10-31 07:31:36,085 - INFO - [pid 381467] Worker Worker(salt=3772412616, workers=1, host=Erlina, username=istywhyerlina, pid=381467) done      Load()
+2024-10-31 07:31:36,086 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 07:31:36,086 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-10-31 07:31:36,086 - DEBUG - Asking scheduler for work...
+2024-10-31 07:31:36,086 - DEBUG - Done
+2024-10-31 07:31:36,086 - DEBUG - There are no more tasks to run at this time
+2024-10-31 07:31:36,087 - INFO - Worker Worker(salt=3772412616, workers=1, host=Erlina, username=istywhyerlina, pid=381467) was stopped. Shutting down Keep-Alive thread
+2024-10-31 07:31:36,088 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 2 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-31 07:48:28,077 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-31 07:48:28,096 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-31 07:48:28,100 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-31 07:48:28,103 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-31 07:48:28,117 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-31 07:48:28,161 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-31 07:48:28,165 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-31 07:48:28,172 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-31 07:48:28,172 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-31 07:48:28,175 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-31 07:48:28,176 - INFO - [pid 390096] Worker Worker(salt=8873014335, workers=1, host=Erlina, username=istywhyerlina, pid=390096) done      Extract()
+2024-10-31 07:48:28,177 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 07:48:28,177 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-31 07:48:28,177 - DEBUG - Asking scheduler for work...
+2024-10-31 07:48:28,178 - DEBUG - Pending tasks: 1
+2024-10-31 07:48:28,178 - INFO - [pid 390096] Worker Worker(salt=8873014335, workers=1, host=Erlina, username=istywhyerlina, pid=390096) running   Load()
+2024-10-31 07:48:28,184 - INFO - Read Load Query - SUCCESS
+2024-10-31 07:48:28,211 - INFO - Read Extracted Data - SUCCESS
+2024-10-31 07:48:28,227 - INFO - Connect to DWH - SUCCESS
+2024-10-31 07:48:28,276 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-10-31 07:48:28,276 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-10-31 07:48:28,289 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-10-31 07:48:28,314 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-10-31 07:48:28,340 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-31 07:48:28,349 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-10-31 07:48:28,381 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-10-31 07:48:28,785 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-31 07:48:28,797 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-10-31 07:48:28,797 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-10-31 07:48:28,798 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-10-31 07:48:28,799 - INFO - [pid 390096] Worker Worker(salt=8873014335, workers=1, host=Erlina, username=istywhyerlina, pid=390096) done      Load()
+2024-10-31 07:48:28,799 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 07:48:28,800 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-10-31 07:48:28,800 - DEBUG - Asking scheduler for work...
+2024-10-31 07:48:28,800 - DEBUG - Done
+2024-10-31 07:48:28,800 - DEBUG - There are no more tasks to run at this time
+2024-10-31 07:48:28,800 - INFO - Worker Worker(salt=8873014335, workers=1, host=Erlina, username=istywhyerlina, pid=390096) was stopped. Shutting down Keep-Alive thread
+2024-10-31 07:48:28,801 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 2 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-31 09:03:10,701 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-31 09:03:10,729 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-31 09:03:10,734 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-31 09:03:10,737 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-31 09:03:10,752 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-31 09:03:10,793 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-31 09:03:10,798 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-31 09:03:10,812 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-31 09:03:10,814 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-31 09:03:10,821 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-31 09:03:10,822 - INFO - [pid 421380] Worker Worker(salt=5212180633, workers=1, host=Erlina, username=istywhyerlina, pid=421380) done      Extract()
+2024-10-31 09:03:10,824 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 09:03:10,825 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-31 09:03:10,825 - DEBUG - Asking scheduler for work...
+2024-10-31 09:03:10,825 - DEBUG - Pending tasks: 1
+2024-10-31 09:03:10,825 - INFO - [pid 421380] Worker Worker(salt=5212180633, workers=1, host=Erlina, username=istywhyerlina, pid=421380) running   Load()
+2024-10-31 09:03:10,830 - INFO - Read Load Query - SUCCESS
+2024-10-31 09:03:10,860 - INFO - Read Extracted Data - SUCCESS
+2024-10-31 09:03:10,886 - INFO - Connect to DWH - SUCCESS
+2024-10-31 09:03:10,939 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-10-31 09:03:10,939 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-10-31 09:03:10,955 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-10-31 09:03:10,980 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-10-31 09:03:11,002 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-31 09:03:11,011 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-10-31 09:03:11,045 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-10-31 09:03:11,480 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-31 09:03:11,491 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-10-31 09:03:11,492 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-10-31 09:03:11,493 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-10-31 09:03:11,493 - INFO - [pid 421380] Worker Worker(salt=5212180633, workers=1, host=Erlina, username=istywhyerlina, pid=421380) done      Load()
+2024-10-31 09:03:11,493 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 09:03:11,494 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-10-31 09:03:11,494 - DEBUG - Asking scheduler for work...
+2024-10-31 09:03:11,494 - DEBUG - Done
+2024-10-31 09:03:11,494 - DEBUG - There are no more tasks to run at this time
+2024-10-31 09:03:11,494 - INFO - Worker Worker(salt=5212180633, workers=1, host=Erlina, username=istywhyerlina, pid=421380) was stopped. Shutting down Keep-Alive thread
+2024-10-31 09:03:11,495 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 2 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-31 10:09:45,447 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-31 10:09:45,492 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-31 10:09:45,497 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-31 10:09:45,499 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-31 10:09:45,513 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-31 10:09:45,556 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-31 10:09:45,559 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-31 10:09:45,567 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-31 10:09:45,567 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-31 10:09:45,567 - INFO - Extract All Tables From Sources - FAILED
+2024-10-31 10:09:45,567 - ERROR - [pid 450939] Worker Worker(salt=2034155854, workers=1, host=Erlina, username=istywhyerlina, pid=450939) failed    Extract()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 77, in run
+    'timestamp': [datetime.now()],
+AttributeError: module 'datetime' has no attribute 'now'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 94, in run
+    'timestamp': [datetime.now()],
+AttributeError: module 'datetime' has no attribute 'now'
+2024-10-31 10:09:45,570 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:09:45,572 - INFO - Informed scheduler that task   Extract__99914b932b   has status   FAILED
+2024-10-31 10:09:45,572 - DEBUG - Asking scheduler for work...
+2024-10-31 10:09:45,572 - DEBUG - Done
+2024-10-31 10:09:45,572 - DEBUG - There are no more tasks to run at this time
+2024-10-31 10:09:45,572 - DEBUG - There are 2 pending tasks possibly being run by other workers
+2024-10-31 10:09:45,572 - DEBUG - There are 2 pending tasks unique to this worker
+2024-10-31 10:09:45,572 - DEBUG - There are 2 pending tasks last scheduled by this worker
+2024-10-31 10:09:45,572 - INFO - Worker Worker(salt=2034155854, workers=1, host=Erlina, username=istywhyerlina, pid=450939) was stopped. Shutting down Keep-Alive thread
+2024-10-31 10:09:45,573 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 failed:
+    - 1 Extract()
+* 1 were left pending, among these:
+    * 1 had failed dependencies:
+        - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-10-31 10:15:03,913 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-31 10:15:03,945 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-31 10:15:03,950 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-31 10:15:03,952 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-31 10:15:03,968 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-31 10:15:04,005 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-31 10:15:04,009 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-31 10:15:04,015 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-31 10:15:04,015 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-31 10:15:04,021 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-31 10:15:04,022 - INFO - [pid 453272] Worker Worker(salt=7741083421, workers=1, host=Erlina, username=istywhyerlina, pid=453272) done      Extract()
+2024-10-31 10:15:04,022 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:15:04,023 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-31 10:15:04,023 - DEBUG - Asking scheduler for work...
+2024-10-31 10:15:04,023 - DEBUG - Pending tasks: 1
+2024-10-31 10:15:04,023 - INFO - [pid 453272] Worker Worker(salt=7741083421, workers=1, host=Erlina, username=istywhyerlina, pid=453272) running   Load()
+2024-10-31 10:15:04,027 - INFO - Read Load Query - SUCCESS
+2024-10-31 10:15:04,051 - INFO - Read Extracted Data - SUCCESS
+2024-10-31 10:15:04,081 - INFO - Connect to DWH - SUCCESS
+2024-10-31 10:15:04,140 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-10-31 10:15:04,140 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-10-31 10:15:04,151 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-10-31 10:15:04,174 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-10-31 10:15:04,195 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-31 10:15:04,204 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-10-31 10:15:04,235 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-10-31 10:15:04,655 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-31 10:15:04,667 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-10-31 10:15:04,667 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-10-31 10:15:04,668 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-10-31 10:15:04,669 - INFO - [pid 453272] Worker Worker(salt=7741083421, workers=1, host=Erlina, username=istywhyerlina, pid=453272) done      Load()
+2024-10-31 10:15:04,669 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:15:04,669 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-10-31 10:15:04,669 - DEBUG - Asking scheduler for work...
+2024-10-31 10:15:04,670 - DEBUG - Done
+2024-10-31 10:15:04,670 - DEBUG - There are no more tasks to run at this time
+2024-10-31 10:15:04,670 - INFO - Worker Worker(salt=7741083421, workers=1, host=Erlina, username=istywhyerlina, pid=453272) was stopped. Shutting down Keep-Alive thread
+2024-10-31 10:15:04,670 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 2 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-31 10:19:54,243 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-31 10:19:54,248 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-31 10:19:54,253 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-31 10:19:54,256 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-31 10:19:54,261 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-31 10:19:54,307 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-31 10:19:54,310 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-31 10:19:54,318 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-31 10:19:54,318 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-31 10:19:54,319 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-31 10:19:54,320 - INFO - [pid 456133] Worker Worker(salt=605174832, workers=1, host=Erlina, username=istywhyerlina, pid=456133) done      Extract()
+2024-10-31 10:19:54,320 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:19:54,321 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-31 10:19:54,321 - DEBUG - Asking scheduler for work...
+2024-10-31 10:19:54,321 - DEBUG - Pending tasks: 1
+2024-10-31 10:19:54,321 - INFO - [pid 456133] Worker Worker(salt=605174832, workers=1, host=Erlina, username=istywhyerlina, pid=456133) running   Load()
+2024-10-31 10:19:54,322 - ERROR - Read Load Query - FAILED
+2024-10-31 10:19:54,322 - ERROR - [pid 456133] Worker Worker(salt=605174832, workers=1, host=Erlina, username=istywhyerlina, pid=456133) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 138, in run
+    file_path = f'{DIR_LOAD_QUERY}/pactravel-truncate_tables.sql'
+NameError: name 'DIR_LOAD_QUERY' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 177, in run
+    raise Exception("Failed to read Load Query")
+Exception: Failed to read Load Query
+2024-10-31 10:19:54,322 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:19:54,324 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-10-31 10:19:54,324 - DEBUG - Asking scheduler for work...
+2024-10-31 10:19:54,324 - DEBUG - Done
+2024-10-31 10:19:54,324 - DEBUG - There are no more tasks to run at this time
+2024-10-31 10:19:54,324 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-10-31 10:19:54,324 - DEBUG - There are 1 pending tasks unique to this worker
+2024-10-31 10:19:54,324 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-10-31 10:19:54,324 - INFO - Worker Worker(salt=605174832, workers=1, host=Erlina, username=istywhyerlina, pid=456133) was stopped. Shutting down Keep-Alive thread
+2024-10-31 10:19:54,325 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-10-31 10:20:50,782 - INFO - Read Load Query - SUCCESS
+2024-10-31 10:20:50,808 - INFO - Read Extracted Data - SUCCESS
+2024-10-31 10:20:50,863 - INFO - Connect to DWH - SUCCESS
+2024-10-31 10:20:50,863 - ERROR - Truncate pactravel Schema in DWH - FAILED
+2024-10-31 10:20:50,863 - ERROR - [pid 456663] Worker Worker(salt=6300105232, workers=1, host=Erlina, username=istywhyerlina, pid=456663) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 225, in run
+    Session = sessionmaker(bind = dwh_engine)
+NameError: name 'sessionmaker' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 243, in run
+    raise Exception("Failed to Truncate pactravel Schema in DWH")
+Exception: Failed to Truncate pactravel Schema in DWH
+2024-10-31 10:20:50,865 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:20:50,866 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-10-31 10:20:50,867 - DEBUG - Asking scheduler for work...
+2024-10-31 10:20:50,867 - DEBUG - Done
+2024-10-31 10:20:50,867 - DEBUG - There are no more tasks to run at this time
+2024-10-31 10:20:50,867 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-10-31 10:20:50,867 - DEBUG - There are 1 pending tasks unique to this worker
+2024-10-31 10:20:50,867 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-10-31 10:20:50,867 - INFO - Worker Worker(salt=6300105232, workers=1, host=Erlina, username=istywhyerlina, pid=456663) was stopped. Shutting down Keep-Alive thread
+2024-10-31 10:20:50,868 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 complete ones were encountered:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-10-31 10:22:01,316 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-31 10:22:01,321 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-31 10:22:01,327 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-31 10:22:01,330 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-31 10:22:01,336 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-31 10:22:01,389 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-31 10:22:01,393 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-31 10:22:01,402 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-31 10:22:01,402 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-31 10:22:01,403 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-31 10:22:01,403 - INFO - [pid 457415] Worker Worker(salt=1280631819, workers=1, host=Erlina, username=istywhyerlina, pid=457415) done      Extract()
+2024-10-31 10:22:01,404 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:22:01,405 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-31 10:22:01,405 - DEBUG - Asking scheduler for work...
+2024-10-31 10:22:01,406 - DEBUG - Pending tasks: 1
+2024-10-31 10:22:01,406 - INFO - [pid 457415] Worker Worker(salt=1280631819, workers=1, host=Erlina, username=istywhyerlina, pid=457415) running   Load()
+2024-10-31 10:22:01,406 - INFO - Read Load Query - SUCCESS
+2024-10-31 10:22:01,434 - INFO - Read Extracted Data - SUCCESS
+2024-10-31 10:22:01,449 - INFO - Connect to DWH - SUCCESS
+2024-10-31 10:22:01,450 - ERROR - Truncate pactravel Schema in DWH - FAILED
+2024-10-31 10:22:01,450 - ERROR - [pid 457415] Worker Worker(salt=1280631819, workers=1, host=Erlina, username=istywhyerlina, pid=457415) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 231, in run
+    query = sqlalchemy.text(query)
+NameError: name 'sqlalchemy' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 244, in run
+    raise Exception("Failed to Truncate pactravel Schema in DWH")
+Exception: Failed to Truncate pactravel Schema in DWH
+2024-10-31 10:22:01,451 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:22:01,453 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-10-31 10:22:01,454 - DEBUG - Asking scheduler for work...
+2024-10-31 10:22:01,454 - DEBUG - Done
+2024-10-31 10:22:01,454 - DEBUG - There are no more tasks to run at this time
+2024-10-31 10:22:01,454 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-10-31 10:22:01,454 - DEBUG - There are 1 pending tasks unique to this worker
+2024-10-31 10:22:01,454 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-10-31 10:22:01,454 - INFO - Worker Worker(salt=1280631819, workers=1, host=Erlina, username=istywhyerlina, pid=457415) was stopped. Shutting down Keep-Alive thread
+2024-10-31 10:22:01,455 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-10-31 10:22:45,372 - INFO - Read Load Query - SUCCESS
+2024-10-31 10:22:45,397 - INFO - Read Extracted Data - SUCCESS
+2024-10-31 10:22:45,445 - INFO - Connect to DWH - SUCCESS
+2024-10-31 10:22:47,219 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-10-31 10:22:47,219 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-10-31 10:22:47,301 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-10-31 10:22:47,344 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-10-31 10:22:47,384 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-31 10:22:47,415 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-10-31 10:22:47,502 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-10-31 10:22:47,953 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-31 10:22:47,997 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-10-31 10:22:47,997 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-10-31 10:22:47,999 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-10-31 10:22:48,000 - INFO - [pid 457789] Worker Worker(salt=8557991721, workers=1, host=Erlina, username=istywhyerlina, pid=457789) done      Load()
+2024-10-31 10:22:48,000 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:22:48,001 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-10-31 10:22:48,001 - DEBUG - Asking scheduler for work...
+2024-10-31 10:22:48,001 - DEBUG - Done
+2024-10-31 10:22:48,001 - DEBUG - There are no more tasks to run at this time
+2024-10-31 10:22:48,001 - INFO - Worker Worker(salt=8557991721, workers=1, host=Erlina, username=istywhyerlina, pid=457789) was stopped. Shutting down Keep-Alive thread
+2024-10-31 10:22:48,002 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 complete ones were encountered:
+    - 1 Extract()
+* 1 ran successfully:
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-10-31 10:35:17,456 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-10-31 10:35:17,460 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-10-31 10:35:17,464 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-10-31 10:35:17,466 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-10-31 10:35:17,469 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-10-31 10:35:17,504 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-10-31 10:35:17,507 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-10-31 10:35:17,513 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-10-31 10:35:17,513 - INFO - Extract All Tables From Sources - SUCCESS
+2024-10-31 10:35:17,513 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-10-31 10:35:17,514 - INFO - [pid 466679] Worker Worker(salt=344069213, workers=1, host=Erlina, username=istywhyerlina, pid=466679) done      Extract()
+2024-10-31 10:35:17,515 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:35:17,515 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-10-31 10:35:17,515 - DEBUG - Asking scheduler for work...
+2024-10-31 10:35:17,516 - DEBUG - Pending tasks: 5
+2024-10-31 10:35:17,516 - INFO - [pid 466679] Worker Worker(salt=344069213, workers=1, host=Erlina, username=istywhyerlina, pid=466679) running   Load()
+2024-10-31 10:35:17,516 - INFO - Read Load Query - SUCCESS
+2024-10-31 10:35:17,531 - INFO - Read Extracted Data - SUCCESS
+2024-10-31 10:35:17,544 - INFO - Connect to DWH - SUCCESS
+2024-10-31 10:35:17,587 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-10-31 10:35:17,587 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-10-31 10:35:17,594 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-10-31 10:35:17,611 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-10-31 10:35:17,627 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-31 10:35:17,632 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-10-31 10:35:17,655 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-10-31 10:35:17,972 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-10-31 10:35:17,980 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-10-31 10:35:17,980 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-10-31 10:35:17,981 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-10-31 10:35:17,981 - INFO - [pid 466679] Worker Worker(salt=344069213, workers=1, host=Erlina, username=istywhyerlina, pid=466679) done      Load()
+2024-10-31 10:35:17,981 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:35:17,982 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-10-31 10:35:17,982 - DEBUG - Asking scheduler for work...
+2024-10-31 10:35:17,982 - DEBUG - Pending tasks: 4
+2024-10-31 10:35:17,982 - INFO - [pid 466679] Worker Worker(salt=344069213, workers=1, host=Erlina, username=istywhyerlina, pid=466679) running   dbtDebug()
+2024-10-31 10:35:20,579 - INFO - [pid 466679] Worker Worker(salt=344069213, workers=1, host=Erlina, username=istywhyerlina, pid=466679) done      dbtDebug()
+2024-10-31 10:35:20,579 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:35:20,579 - INFO - Informed scheduler that task   dbtDebug__99914b932b   has status   DONE
+2024-10-31 10:35:20,579 - DEBUG - Asking scheduler for work...
+2024-10-31 10:35:20,579 - DEBUG - Pending tasks: 3
+2024-10-31 10:35:20,579 - INFO - [pid 466679] Worker Worker(salt=344069213, workers=1, host=Erlina, username=istywhyerlina, pid=466679) running   dbtDeps()
+2024-10-31 10:35:30,275 - INFO - [pid 466679] Worker Worker(salt=344069213, workers=1, host=Erlina, username=istywhyerlina, pid=466679) done      dbtDeps()
+2024-10-31 10:35:30,275 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:35:30,276 - INFO - Informed scheduler that task   dbtDeps__99914b932b   has status   DONE
+2024-10-31 10:35:30,276 - DEBUG - Asking scheduler for work...
+2024-10-31 10:35:30,276 - DEBUG - Pending tasks: 2
+2024-10-31 10:35:30,276 - INFO - [pid 466679] Worker Worker(salt=344069213, workers=1, host=Erlina, username=istywhyerlina, pid=466679) running   dbtRun()
+2024-10-31 10:37:10,997 - INFO - [pid 466679] Worker Worker(salt=344069213, workers=1, host=Erlina, username=istywhyerlina, pid=466679) done      dbtRun()
+2024-10-31 10:37:10,997 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:37:10,998 - INFO - Informed scheduler that task   dbtRun__99914b932b   has status   DONE
+2024-10-31 10:37:10,998 - DEBUG - Asking scheduler for work...
+2024-10-31 10:37:10,998 - DEBUG - Pending tasks: 1
+2024-10-31 10:37:10,998 - INFO - [pid 466679] Worker Worker(salt=344069213, workers=1, host=Erlina, username=istywhyerlina, pid=466679) running   dbtTest()
+2024-10-31 10:37:16,492 - INFO - [pid 466679] Worker Worker(salt=344069213, workers=1, host=Erlina, username=istywhyerlina, pid=466679) done      dbtTest()
+2024-10-31 10:37:16,492 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-10-31 10:37:16,492 - INFO - Informed scheduler that task   dbtTest__99914b932b   has status   DONE
+2024-10-31 10:37:16,493 - DEBUG - Asking scheduler for work...
+2024-10-31 10:37:16,493 - DEBUG - Done
+2024-10-31 10:37:16,493 - DEBUG - There are no more tasks to run at this time
+2024-10-31 10:37:16,493 - INFO - Worker Worker(salt=344069213, workers=1, host=Erlina, username=istywhyerlina, pid=466679) was stopped. Shutting down Keep-Alive thread
+2024-10-31 10:37:16,494 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 6 tasks of which:
+* 6 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+    - 1 dbtDebug()
+    - 1 dbtDeps()
+    - 1 dbtRun()
+    ...
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-11-01 07:27:15,721 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-01 07:27:15,747 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-01 07:27:15,752 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-01 07:27:15,756 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-01 07:27:15,766 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-01 07:27:15,820 - INFO - EXTRACT 'public.flight_bookings' - SUCCESS.
+2024-11-01 07:27:15,825 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-11-01 07:27:15,841 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-01 07:27:15,841 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-01 07:27:15,845 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-01 07:27:15,846 - INFO - [pid 10607] Worker Worker(salt=9394984930, workers=1, host=Erlina, username=istywhyerlina, pid=10607) done      Extract()
+2024-11-01 07:27:15,847 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 07:27:15,848 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-01 07:27:15,848 - DEBUG - Asking scheduler for work...
+2024-11-01 07:27:15,848 - DEBUG - Pending tasks: 5
+2024-11-01 07:27:15,849 - INFO - [pid 10607] Worker Worker(salt=9394984930, workers=1, host=Erlina, username=istywhyerlina, pid=10607) running   Load()
+2024-11-01 07:27:15,853 - INFO - Read Load Query - SUCCESS
+2024-11-01 07:27:15,876 - INFO - Read Extracted Data - SUCCESS
+2024-11-01 07:27:15,910 - INFO - Connect to DWH - SUCCESS
+2024-11-01 07:27:15,968 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-01 07:27:15,968 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-01 07:27:15,982 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-01 07:27:16,009 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-01 07:27:16,035 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-01 07:27:16,043 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-01 07:27:16,079 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-01 07:27:16,570 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-01 07:27:16,582 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-11-01 07:27:16,582 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-11-01 07:27:16,583 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-11-01 07:27:16,584 - INFO - [pid 10607] Worker Worker(salt=9394984930, workers=1, host=Erlina, username=istywhyerlina, pid=10607) done      Load()
+2024-11-01 07:27:16,584 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 07:27:16,585 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-11-01 07:27:16,585 - DEBUG - Asking scheduler for work...
+2024-11-01 07:27:16,585 - DEBUG - Pending tasks: 4
+2024-11-01 07:27:16,585 - INFO - [pid 10607] Worker Worker(salt=9394984930, workers=1, host=Erlina, username=istywhyerlina, pid=10607) running   dbtDebug()
+2024-11-01 07:27:20,847 - INFO - [pid 10607] Worker Worker(salt=9394984930, workers=1, host=Erlina, username=istywhyerlina, pid=10607) done      dbtDebug()
+2024-11-01 07:27:20,847 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 07:27:20,848 - INFO - Informed scheduler that task   dbtDebug__99914b932b   has status   DONE
+2024-11-01 07:27:20,848 - DEBUG - Asking scheduler for work...
+2024-11-01 07:27:20,848 - DEBUG - Pending tasks: 3
+2024-11-01 07:27:20,848 - INFO - [pid 10607] Worker Worker(salt=9394984930, workers=1, host=Erlina, username=istywhyerlina, pid=10607) running   dbtDeps()
+2024-11-01 07:27:37,039 - INFO - [pid 10607] Worker Worker(salt=9394984930, workers=1, host=Erlina, username=istywhyerlina, pid=10607) done      dbtDeps()
+2024-11-01 07:27:37,040 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 07:27:37,041 - INFO - Informed scheduler that task   dbtDeps__99914b932b   has status   DONE
+2024-11-01 07:27:37,041 - DEBUG - Asking scheduler for work...
+2024-11-01 07:27:37,042 - DEBUG - Pending tasks: 2
+2024-11-01 07:27:37,043 - INFO - [pid 10607] Worker Worker(salt=9394984930, workers=1, host=Erlina, username=istywhyerlina, pid=10607) running   dbtRun()
+2024-11-01 07:29:18,786 - INFO - [pid 10607] Worker Worker(salt=9394984930, workers=1, host=Erlina, username=istywhyerlina, pid=10607) done      dbtRun()
+2024-11-01 07:29:18,787 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 07:29:18,787 - INFO - Informed scheduler that task   dbtRun__99914b932b   has status   DONE
+2024-11-01 07:29:18,787 - DEBUG - Asking scheduler for work...
+2024-11-01 07:29:18,788 - DEBUG - Pending tasks: 1
+2024-11-01 07:29:18,788 - INFO - [pid 10607] Worker Worker(salt=9394984930, workers=1, host=Erlina, username=istywhyerlina, pid=10607) running   dbtTest()
+2024-11-01 07:29:25,300 - INFO - [pid 10607] Worker Worker(salt=9394984930, workers=1, host=Erlina, username=istywhyerlina, pid=10607) done      dbtTest()
+2024-11-01 07:29:25,301 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 07:29:25,301 - INFO - Informed scheduler that task   dbtTest__99914b932b   has status   DONE
+2024-11-01 07:29:25,302 - DEBUG - Asking scheduler for work...
+2024-11-01 07:29:25,302 - DEBUG - Done
+2024-11-01 07:29:25,302 - DEBUG - There are no more tasks to run at this time
+2024-11-01 07:29:25,302 - INFO - Worker Worker(salt=9394984930, workers=1, host=Erlina, username=istywhyerlina, pid=10607) was stopped. Shutting down Keep-Alive thread
+2024-11-01 07:29:25,303 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 6 tasks of which:
+* 6 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+    - 1 dbtDebug()
+    - 1 dbtDeps()
+    - 1 dbtRun()
+    ...
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-11-01 12:30:49,854 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-01 12:30:49,889 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-01 12:30:49,897 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-01 12:30:49,902 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-01 12:30:49,912 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-01 12:30:49,916 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-01 12:30:49,921 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-11-01 12:30:49,934 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-01 12:30:49,934 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-01 12:30:49,938 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-01 12:30:49,939 - INFO - [pid 189334] Worker Worker(salt=9441363901, workers=1, host=Erlina, username=istywhyerlina, pid=189334) done      Extract()
+2024-11-01 12:30:49,942 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 12:30:49,943 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-01 12:30:49,943 - DEBUG - Asking scheduler for work...
+2024-11-01 12:30:49,944 - DEBUG - Pending tasks: 1
+2024-11-01 12:30:49,944 - INFO - [pid 189334] Worker Worker(salt=9441363901, workers=1, host=Erlina, username=istywhyerlina, pid=189334) running   Load()
+2024-11-01 12:30:49,952 - INFO - Read Load Query - SUCCESS
+2024-11-01 12:30:49,978 - INFO - Read Extracted Data - SUCCESS
+2024-11-01 12:30:49,997 - INFO - Connect to DWH - SUCCESS
+2024-11-01 12:30:50,082 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-01 12:30:50,082 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-01 12:30:50,099 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-01 12:30:50,131 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-01 12:30:50,161 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-01 12:30:50,171 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-01 12:30:50,220 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-01 12:30:50,226 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-01 12:30:50,237 - ERROR - LOAD All Tables To DWH-pactravel - FAILED
+2024-11-01 12:30:50,238 - ERROR - [pid 189334] Worker Worker(salt=9441363901, workers=1, host=Erlina, username=istywhyerlina, pid=189334) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2118, in _exec_insertmany_context
+    dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: column "booking_date" of relation "hotel_bookings" does not exist
+LINE 1: ...l.hotel_bookings (trip_id, customer_id, hotel_id, booking_da...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 306, in run
+    hotel_bookings.to_sql('hotel_bookings',
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 3087, in to_sql
+    return sql.to_sql(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 842, in to_sql
+    return pandas_sql.to_sql(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 2018, in to_sql
+    total_inserted = sql_engine.insert_records(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 1567, in insert_records
+    raise err
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 1558, in insert_records
+    return table.insert(chunksize=chunksize, method=method)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 1119, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 1010, in _execute_insert
+    result = conn.execute(self.table.insert(), data)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1844, in _execute_context
+    return self._exec_insertmany_context(dialect, context)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2126, in _exec_insertmany_context
+    self._handle_dbapi_exception(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2118, in _exec_insertmany_context
+    dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column "booking_date" of relation "hotel_bookings" does not exist
+LINE 1: ...l.hotel_bookings (trip_id, customer_id, hotel_id, booking_da...
+                                                             ^
+
+[SQL: INSERT INTO pactravel.hotel_bookings (trip_id, customer_id, hotel_id, booking_date, booking_time, check_in_date, check_out_date, price, breakfast_included) VALUES (%(trip_id__0)s, %(customer_id__0)s, %(hotel_id__0)s, %(booking_date__0)s, %(booking_ti ... 42438 characters truncated ... 216)s, %(check_in_date__216)s, %(check_out_date__216)s, %(price__216)s, %(breakfast_included__216)s)]
+[parameters: {'customer_id__0': 7529424, 'check_out_date__0': '2016-07-05', 'price__0': 3240, 'booking_time__0': None, 'booking_date__0': None, 'breakfast_included__0': True, 'trip_id__0': 1, 'hotel_id__0': 1439, 'check_in_date__0': '2016-06-08', 'customer_id__1': 2531752, 'check_out_date__1': '2016-11-26', 'price__1': 2160, 'booking_time__1': None, 'booking_date__1': None, 'breakfast_included__1': True, 'trip_id__1': 30, 'hotel_id__1': 912, 'check_in_date__1': '2016-11-08', 'customer_id__2': 2445019, 'check_out_date__2': '2019-01-01', 'price__2': 2280, 'booking_time__2': None, 'booking_date__2': None, 'breakfast_included__2': True, 'trip_id__2': 40, 'hotel_id__2': 35, 'check_in_date__2': '2018-12-13', 'customer_id__3': 2134022, 'check_out_date__3': '2018-10-19', 'price__3': 2400, 'booking_time__3': None, 'booking_date__3': None, 'breakfast_included__3': True, 'trip_id__3': 65, 'hotel_id__3': 716, 'check_in_date__3': '2018-09-29', 'customer_id__4': 949994, 'check_out_date__4': '2019-01-12', 'price__4': 1680, 'booking_time__4': None, 'booking_date__4': None, 'breakfast_included__4': True, 'trip_id__4': 76, 'hotel_id__4': 1090, 'check_in_date__4': '2018-12-29', 'customer_id__5': 3478960, 'check_out_date__5': '2018-12-30', 'price__5': 3480, 'booking_time__5': None, 'booking_date__5': None ... 1853 parameters truncated ... 'booking_date__211': None, 'breakfast_included__211': False, 'trip_id__211': 3946, 'hotel_id__211': 1043, 'check_in_date__211': '2013-01-25', 'customer_id__212': 9223879, 'check_out_date__212': '2019-01-17', 'price__212': 2760, 'booking_time__212': None, 'booking_date__212': None, 'breakfast_included__212': False, 'trip_id__212': 3952, 'hotel_id__212': 1401, 'check_in_date__212': '2018-12-25', 'customer_id__213': 6605808, 'check_out_date__213': '2012-03-17', 'price__213': 2760, 'booking_time__213': None, 'booking_date__213': None, 'breakfast_included__213': False, 'trip_id__213': 3997, 'hotel_id__213': 988, 'check_in_date__213': '2012-02-23', 'customer_id__214': 6673798, 'check_out_date__214': '2017-10-12', 'price__214': 2520, 'booking_time__214': None, 'booking_date__214': None, 'breakfast_included__214': False, 'trip_id__214': 4041, 'hotel_id__214': 373, 'check_in_date__214': '2017-09-21', 'customer_id__215': 6673798, 'check_out_date__215': '2018-02-17', 'price__215': 1200, 'booking_time__215': None, 'booking_date__215': None, 'breakfast_included__215': False, 'trip_id__215': 4042, 'hotel_id__215': 1149, 'check_in_date__215': '2018-02-07', 'customer_id__216': 8091557, 'check_out_date__216': '2018-06-23', 'price__216': 1200, 'booking_time__216': None, 'booking_date__216': None, 'breakfast_included__216': True, 'trip_id__216': 4085, 'hotel_id__216': 483, 'check_in_date__216': '2018-06-13'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 319, in run
+    raise Exception('Failed Load Tables To DWH-pactravel')
+Exception: Failed Load Tables To DWH-pactravel
+2024-11-01 12:30:50,257 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 12:30:50,260 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-11-01 12:30:50,260 - DEBUG - Asking scheduler for work...
+2024-11-01 12:30:50,260 - DEBUG - Done
+2024-11-01 12:30:50,261 - DEBUG - There are no more tasks to run at this time
+2024-11-01 12:30:50,261 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-11-01 12:30:50,261 - DEBUG - There are 1 pending tasks unique to this worker
+2024-11-01 12:30:50,261 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-11-01 12:30:50,261 - INFO - Worker Worker(salt=9441363901, workers=1, host=Erlina, username=istywhyerlina, pid=189334) was stopped. Shutting down Keep-Alive thread
+2024-11-01 12:30:50,262 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-11-01 12:46:14,691 - INFO - Read Load Query - SUCCESS
+2024-11-01 12:46:14,723 - INFO - Read Extracted Data - SUCCESS
+2024-11-01 12:46:14,808 - INFO - Connect to DWH - SUCCESS
+2024-11-01 12:46:14,863 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-01 12:46:14,863 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-01 12:46:14,889 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-01 12:46:14,919 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-01 12:46:14,945 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-01 12:46:14,954 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-01 12:46:14,994 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-01 12:46:15,001 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-01 12:46:15,012 - ERROR - LOAD All Tables To DWH-pactravel - FAILED
+2024-11-01 12:46:15,012 - ERROR - [pid 201703] Worker Worker(salt=5558562979, workers=1, host=Erlina, username=istywhyerlina, pid=201703) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2118, in _exec_insertmany_context
+    dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: column "booking_date" of relation "hotel_bookings" does not exist
+LINE 1: ...l.hotel_bookings (trip_id, customer_id, hotel_id, booking_da...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 306, in run
+    hotel_bookings.to_sql('hotel_bookings',
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 3087, in to_sql
+    return sql.to_sql(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 842, in to_sql
+    return pandas_sql.to_sql(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 2018, in to_sql
+    total_inserted = sql_engine.insert_records(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 1567, in insert_records
+    raise err
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 1558, in insert_records
+    return table.insert(chunksize=chunksize, method=method)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 1119, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 1010, in _execute_insert
+    result = conn.execute(self.table.insert(), data)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1844, in _execute_context
+    return self._exec_insertmany_context(dialect, context)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2126, in _exec_insertmany_context
+    self._handle_dbapi_exception(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2118, in _exec_insertmany_context
+    dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column "booking_date" of relation "hotel_bookings" does not exist
+LINE 1: ...l.hotel_bookings (trip_id, customer_id, hotel_id, booking_da...
+                                                             ^
+
+[SQL: INSERT INTO pactravel.hotel_bookings (trip_id, customer_id, hotel_id, booking_date, booking_time, check_in_date, check_out_date, price, breakfast_included) VALUES (%(trip_id__0)s, %(customer_id__0)s, %(hotel_id__0)s, %(booking_date__0)s, %(booking_ti ... 42438 characters truncated ... 216)s, %(check_in_date__216)s, %(check_out_date__216)s, %(price__216)s, %(breakfast_included__216)s)]
+[parameters: {'customer_id__0': 7529424, 'price__0': 3240, 'check_in_date__0': '2016-06-08', 'trip_id__0': 1, 'booking_time__0': None, 'check_out_date__0': '2016-07-05', 'booking_date__0': None, 'hotel_id__0': 1439, 'breakfast_included__0': True, 'customer_id__1': 2531752, 'price__1': 2160, 'check_in_date__1': '2016-11-08', 'trip_id__1': 30, 'booking_time__1': None, 'check_out_date__1': '2016-11-26', 'booking_date__1': None, 'hotel_id__1': 912, 'breakfast_included__1': True, 'customer_id__2': 2445019, 'price__2': 2280, 'check_in_date__2': '2018-12-13', 'trip_id__2': 40, 'booking_time__2': None, 'check_out_date__2': '2019-01-01', 'booking_date__2': None, 'hotel_id__2': 35, 'breakfast_included__2': True, 'customer_id__3': 2134022, 'price__3': 2400, 'check_in_date__3': '2018-09-29', 'trip_id__3': 65, 'booking_time__3': None, 'check_out_date__3': '2018-10-19', 'booking_date__3': None, 'hotel_id__3': 716, 'breakfast_included__3': True, 'customer_id__4': 949994, 'price__4': 1680, 'check_in_date__4': '2018-12-29', 'trip_id__4': 76, 'booking_time__4': None, 'check_out_date__4': '2019-01-12', 'booking_date__4': None, 'hotel_id__4': 1090, 'breakfast_included__4': True, 'customer_id__5': 3478960, 'price__5': 3480, 'check_in_date__5': '2018-12-01', 'trip_id__5': 108, 'booking_time__5': None ... 1853 parameters truncated ... 'booking_time__211': None, 'check_out_date__211': '2013-02-23', 'booking_date__211': None, 'hotel_id__211': 1043, 'breakfast_included__211': False, 'customer_id__212': 9223879, 'price__212': 2760, 'check_in_date__212': '2018-12-25', 'trip_id__212': 3952, 'booking_time__212': None, 'check_out_date__212': '2019-01-17', 'booking_date__212': None, 'hotel_id__212': 1401, 'breakfast_included__212': False, 'customer_id__213': 6605808, 'price__213': 2760, 'check_in_date__213': '2012-02-23', 'trip_id__213': 3997, 'booking_time__213': None, 'check_out_date__213': '2012-03-17', 'booking_date__213': None, 'hotel_id__213': 988, 'breakfast_included__213': False, 'customer_id__214': 6673798, 'price__214': 2520, 'check_in_date__214': '2017-09-21', 'trip_id__214': 4041, 'booking_time__214': None, 'check_out_date__214': '2017-10-12', 'booking_date__214': None, 'hotel_id__214': 373, 'breakfast_included__214': False, 'customer_id__215': 6673798, 'price__215': 1200, 'check_in_date__215': '2018-02-07', 'trip_id__215': 4042, 'booking_time__215': None, 'check_out_date__215': '2018-02-17', 'booking_date__215': None, 'hotel_id__215': 1149, 'breakfast_included__215': False, 'customer_id__216': 8091557, 'price__216': 1200, 'check_in_date__216': '2018-06-13', 'trip_id__216': 4085, 'booking_time__216': None, 'check_out_date__216': '2018-06-23', 'booking_date__216': None, 'hotel_id__216': 483, 'breakfast_included__216': True}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 319, in run
+    raise Exception('Failed Load Tables To DWH-pactravel')
+Exception: Failed Load Tables To DWH-pactravel
+2024-11-01 12:46:15,035 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 12:46:15,039 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-11-01 12:46:15,039 - DEBUG - Asking scheduler for work...
+2024-11-01 12:46:15,039 - DEBUG - Done
+2024-11-01 12:46:15,039 - DEBUG - There are no more tasks to run at this time
+2024-11-01 12:46:15,039 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-11-01 12:46:15,039 - DEBUG - There are 1 pending tasks unique to this worker
+2024-11-01 12:46:15,039 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-11-01 12:46:15,039 - INFO - Worker Worker(salt=5558562979, workers=1, host=Erlina, username=istywhyerlina, pid=201703) was stopped. Shutting down Keep-Alive thread
+2024-11-01 12:46:15,041 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 complete ones were encountered:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-11-01 12:46:25,045 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-01 12:46:25,052 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-01 12:46:25,058 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-01 12:46:25,061 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-01 12:46:25,070 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-01 12:46:25,151 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-01 12:46:25,157 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-11-01 12:46:25,168 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-01 12:46:25,168 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-01 12:46:25,170 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-01 12:46:25,170 - INFO - [pid 201828] Worker Worker(salt=8176047070, workers=1, host=Erlina, username=istywhyerlina, pid=201828) done      Extract()
+2024-11-01 12:46:25,172 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 12:46:25,172 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-01 12:46:25,172 - DEBUG - Asking scheduler for work...
+2024-11-01 12:46:25,173 - DEBUG - Pending tasks: 1
+2024-11-01 12:46:25,173 - INFO - [pid 201828] Worker Worker(salt=8176047070, workers=1, host=Erlina, username=istywhyerlina, pid=201828) running   Load()
+2024-11-01 12:46:25,173 - INFO - Read Load Query - SUCCESS
+2024-11-01 12:46:25,226 - INFO - Read Extracted Data - SUCCESS
+2024-11-01 12:46:25,239 - INFO - Connect to DWH - SUCCESS
+2024-11-01 12:46:25,311 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-01 12:46:25,311 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-01 12:46:25,325 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-01 12:46:25,361 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-01 12:46:25,391 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-01 12:46:25,401 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-01 12:46:25,449 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-01 12:46:26,002 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-01 12:46:26,011 - ERROR - LOAD All Tables To DWH-pactravel - FAILED
+2024-11-01 12:46:26,011 - ERROR - [pid 201828] Worker Worker(salt=8176047070, workers=1, host=Erlina, username=istywhyerlina, pid=201828) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2118, in _exec_insertmany_context
+    dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: column "booking_date" of relation "hotel_bookings" does not exist
+LINE 1: ...l.hotel_bookings (trip_id, customer_id, hotel_id, booking_da...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 306, in run
+    hotel_bookings.to_sql('hotel_bookings',
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 3087, in to_sql
+    return sql.to_sql(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 842, in to_sql
+    return pandas_sql.to_sql(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 2018, in to_sql
+    total_inserted = sql_engine.insert_records(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 1567, in insert_records
+    raise err
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 1558, in insert_records
+    return table.insert(chunksize=chunksize, method=method)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 1119, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/pandas/io/sql.py", line 1010, in _execute_insert
+    result = conn.execute(self.table.insert(), data)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1418, in execute
+    return meth(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1844, in _execute_context
+    return self._exec_insertmany_context(dialect, context)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2126, in _exec_insertmany_context
+    self._handle_dbapi_exception(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2118, in _exec_insertmany_context
+    dialect.do_execute(
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column "booking_date" of relation "hotel_bookings" does not exist
+LINE 1: ...l.hotel_bookings (trip_id, customer_id, hotel_id, booking_da...
+                                                             ^
+
+[SQL: INSERT INTO pactravel.hotel_bookings (trip_id, customer_id, hotel_id, booking_date, booking_time, check_in_date, check_out_date, price, breakfast_included) VALUES (%(trip_id__0)s, %(customer_id__0)s, %(hotel_id__0)s, %(booking_date__0)s, %(booking_ti ... 42438 characters truncated ... 216)s, %(check_in_date__216)s, %(check_out_date__216)s, %(price__216)s, %(breakfast_included__216)s)]
+[parameters: {'booking_time__0': None, 'check_in_date__0': '2016-06-08', 'price__0': 3240, 'booking_date__0': None, 'breakfast_included__0': True, 'trip_id__0': 1, 'check_out_date__0': '2016-07-05', 'hotel_id__0': 1439, 'customer_id__0': 7529424, 'booking_time__1': None, 'check_in_date__1': '2016-11-08', 'price__1': 2160, 'booking_date__1': None, 'breakfast_included__1': True, 'trip_id__1': 30, 'check_out_date__1': '2016-11-26', 'hotel_id__1': 912, 'customer_id__1': 2531752, 'booking_time__2': None, 'check_in_date__2': '2018-12-13', 'price__2': 2280, 'booking_date__2': None, 'breakfast_included__2': True, 'trip_id__2': 40, 'check_out_date__2': '2019-01-01', 'hotel_id__2': 35, 'customer_id__2': 2445019, 'booking_time__3': None, 'check_in_date__3': '2018-09-29', 'price__3': 2400, 'booking_date__3': None, 'breakfast_included__3': True, 'trip_id__3': 65, 'check_out_date__3': '2018-10-19', 'hotel_id__3': 716, 'customer_id__3': 2134022, 'booking_time__4': None, 'check_in_date__4': '2018-12-29', 'price__4': 1680, 'booking_date__4': None, 'breakfast_included__4': True, 'trip_id__4': 76, 'check_out_date__4': '2019-01-12', 'hotel_id__4': 1090, 'customer_id__4': 949994, 'booking_time__5': None, 'check_in_date__5': '2018-12-01', 'price__5': 3480, 'booking_date__5': None, 'breakfast_included__5': False ... 1853 parameters truncated ... 'breakfast_included__211': False, 'trip_id__211': 3946, 'check_out_date__211': '2013-02-23', 'hotel_id__211': 1043, 'customer_id__211': 7005813, 'booking_time__212': None, 'check_in_date__212': '2018-12-25', 'price__212': 2760, 'booking_date__212': None, 'breakfast_included__212': False, 'trip_id__212': 3952, 'check_out_date__212': '2019-01-17', 'hotel_id__212': 1401, 'customer_id__212': 9223879, 'booking_time__213': None, 'check_in_date__213': '2012-02-23', 'price__213': 2760, 'booking_date__213': None, 'breakfast_included__213': False, 'trip_id__213': 3997, 'check_out_date__213': '2012-03-17', 'hotel_id__213': 988, 'customer_id__213': 6605808, 'booking_time__214': None, 'check_in_date__214': '2017-09-21', 'price__214': 2520, 'booking_date__214': None, 'breakfast_included__214': False, 'trip_id__214': 4041, 'check_out_date__214': '2017-10-12', 'hotel_id__214': 373, 'customer_id__214': 6673798, 'booking_time__215': None, 'check_in_date__215': '2018-02-07', 'price__215': 1200, 'booking_date__215': None, 'breakfast_included__215': False, 'trip_id__215': 4042, 'check_out_date__215': '2018-02-17', 'hotel_id__215': 1149, 'customer_id__215': 6673798, 'booking_time__216': None, 'check_in_date__216': '2018-06-13', 'price__216': 1200, 'booking_date__216': None, 'breakfast_included__216': True, 'trip_id__216': 4085, 'check_out_date__216': '2018-06-23', 'hotel_id__216': 483, 'customer_id__216': 8091557}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 319, in run
+    raise Exception('Failed Load Tables To DWH-pactravel')
+Exception: Failed Load Tables To DWH-pactravel
+2024-11-01 12:46:26,014 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 12:46:26,016 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-11-01 12:46:26,017 - DEBUG - Asking scheduler for work...
+2024-11-01 12:46:26,017 - DEBUG - Done
+2024-11-01 12:46:26,017 - DEBUG - There are no more tasks to run at this time
+2024-11-01 12:46:26,017 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-11-01 12:46:26,017 - DEBUG - There are 1 pending tasks unique to this worker
+2024-11-01 12:46:26,017 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-11-01 12:46:26,017 - INFO - Worker Worker(salt=8176047070, workers=1, host=Erlina, username=istywhyerlina, pid=201828) was stopped. Shutting down Keep-Alive thread
+2024-11-01 12:46:26,018 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-11-01 13:40:23,164 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-01 13:40:23,201 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-01 13:40:23,205 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-01 13:40:23,208 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-01 13:40:23,215 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-01 13:40:23,269 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-01 13:40:23,273 - INFO - EXTRACT 'public.hotel_bookings' - SUCCESS.
+2024-11-01 13:40:23,283 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-01 13:40:23,283 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-01 13:40:23,288 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-01 13:40:23,289 - INFO - [pid 234892] Worker Worker(salt=7735853467, workers=1, host=Erlina, username=istywhyerlina, pid=234892) done      Extract()
+2024-11-01 13:40:23,290 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 13:40:23,291 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-01 13:40:23,291 - DEBUG - Asking scheduler for work...
+2024-11-01 13:40:23,291 - DEBUG - Done
+2024-11-01 13:40:23,291 - DEBUG - There are no more tasks to run at this time
+2024-11-01 13:40:23,291 - INFO - Worker Worker(salt=7735853467, workers=1, host=Erlina, username=istywhyerlina, pid=234892) was stopped. Shutting down Keep-Alive thread
+2024-11-01 13:40:23,292 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-11-01 14:28:33,462 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-01 14:28:33,493 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-01 14:28:33,497 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-01 14:28:33,499 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-01 14:28:33,506 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-01 14:28:33,559 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-01 14:28:33,565 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-01 14:28:33,572 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-01 14:28:33,572 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-01 14:28:33,577 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-01 14:28:33,578 - INFO - [pid 262127] Worker Worker(salt=3130990724, workers=1, host=Erlina, username=istywhyerlina, pid=262127) done      Extract()
+2024-11-01 14:28:33,579 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 14:28:33,580 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-01 14:28:33,580 - DEBUG - Asking scheduler for work...
+2024-11-01 14:28:33,580 - DEBUG - Done
+2024-11-01 14:28:33,580 - DEBUG - There are no more tasks to run at this time
+2024-11-01 14:28:33,580 - INFO - Worker Worker(salt=3130990724, workers=1, host=Erlina, username=istywhyerlina, pid=262127) was stopped. Shutting down Keep-Alive thread
+2024-11-01 14:28:33,581 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-11-01 14:28:46,323 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-01 14:28:46,327 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-01 14:28:46,333 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-01 14:28:46,335 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-01 14:28:46,340 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-01 14:28:46,399 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-01 14:28:46,404 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-01 14:28:46,412 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-01 14:28:46,412 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-01 14:28:46,414 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-01 14:28:46,414 - INFO - [pid 262275] Worker Worker(salt=7963525333, workers=1, host=Erlina, username=istywhyerlina, pid=262275) done      Extract()
+2024-11-01 14:28:46,415 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 14:28:46,416 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-01 14:28:46,416 - DEBUG - Asking scheduler for work...
+2024-11-01 14:28:46,417 - DEBUG - Pending tasks: 1
+2024-11-01 14:28:46,417 - INFO - [pid 262275] Worker Worker(salt=7963525333, workers=1, host=Erlina, username=istywhyerlina, pid=262275) running   Load()
+2024-11-01 14:28:46,417 - ERROR - [pid 262275] Worker Worker(salt=7963525333, workers=1, host=Erlina, username=istywhyerlina, pid=262275) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 195, in run
+    raise RuntimeError('Unfulfilled %s at run time: %s' % (deps, ', '.join(missing)))
+RuntimeError: Unfulfilled dependency at run time: Extract__99914b932b (/home/istywhyerlina/datastorage_w7/pipeline/temp/public.flight_bookings2.csv, /home/istywhyerlina/datastorage_w7/pipeline/temp/public.hotel_bookings2.csv)
+2024-11-01 14:28:46,419 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 14:28:46,421 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-11-01 14:28:46,421 - DEBUG - Checking if Load() is complete
+2024-11-01 14:28:46,421 - DEBUG - Checking if Extract() is complete
+2024-11-01 14:28:46,422 - INFO - Informed scheduler that task   Load__99914b932b   has status   PENDING
+2024-11-01 14:28:46,422 - INFO - Informed scheduler that task   Extract__99914b932b   has status   PENDING
+2024-11-01 14:28:46,422 - DEBUG - Asking scheduler for work...
+2024-11-01 14:28:46,422 - DEBUG - Pending tasks: 1
+2024-11-01 14:28:46,422 - INFO - [pid 262275] Worker Worker(salt=7963525333, workers=1, host=Erlina, username=istywhyerlina, pid=262275) running   Load()
+2024-11-01 14:28:46,422 - ERROR - [pid 262275] Worker Worker(salt=7963525333, workers=1, host=Erlina, username=istywhyerlina, pid=262275) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 195, in run
+    raise RuntimeError('Unfulfilled %s at run time: %s' % (deps, ', '.join(missing)))
+RuntimeError: Unfulfilled dependency at run time: Extract__99914b932b (/home/istywhyerlina/datastorage_w7/pipeline/temp/public.flight_bookings2.csv, /home/istywhyerlina/datastorage_w7/pipeline/temp/public.hotel_bookings2.csv)
+2024-11-01 14:28:46,423 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 14:28:46,424 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-11-01 14:28:46,424 - DEBUG - Asking scheduler for work...
+2024-11-01 14:28:46,424 - DEBUG - Done
+2024-11-01 14:28:46,424 - DEBUG - There are no more tasks to run at this time
+2024-11-01 14:28:46,424 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-11-01 14:28:46,425 - DEBUG - There are 1 pending tasks unique to this worker
+2024-11-01 14:28:46,425 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-11-01 14:28:46,425 - INFO - Worker Worker(salt=7963525333, workers=1, host=Erlina, username=istywhyerlina, pid=262275) was stopped. Shutting down Keep-Alive thread
+2024-11-01 14:28:46,426 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-11-01 16:55:15,432 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-01 16:55:15,455 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-01 16:55:15,463 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-01 16:55:15,466 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-01 16:55:15,484 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-01 16:55:15,644 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-01 16:55:15,654 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-01 16:55:15,674 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-01 16:55:15,675 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-01 16:55:15,680 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-01 16:55:15,681 - INFO - [pid 4640] Worker Worker(salt=8686192186, workers=1, host=Erlina, username=istywhyerlina, pid=4640) done      Extract()
+2024-11-01 16:55:15,683 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 16:55:15,684 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-01 16:55:15,684 - DEBUG - Asking scheduler for work...
+2024-11-01 16:55:15,685 - DEBUG - Pending tasks: 1
+2024-11-01 16:55:15,685 - INFO - [pid 4640] Worker Worker(salt=8686192186, workers=1, host=Erlina, username=istywhyerlina, pid=4640) running   Load()
+2024-11-01 16:55:15,686 - ERROR - [pid 4640] Worker Worker(salt=8686192186, workers=1, host=Erlina, username=istywhyerlina, pid=4640) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 195, in run
+    raise RuntimeError('Unfulfilled %s at run time: %s' % (deps, ', '.join(missing)))
+RuntimeError: Unfulfilled dependency at run time: Extract__99914b932b (/home/istywhyerlina/datastorage_w7/pipeline/temp/public.flight_bookings2.csv, /home/istywhyerlina/datastorage_w7/pipeline/temp/public.hotel_bookings2.csv)
+2024-11-01 16:55:15,688 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 16:55:15,692 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-11-01 16:55:15,692 - DEBUG - Checking if Load() is complete
+2024-11-01 16:55:15,693 - DEBUG - Checking if Extract() is complete
+2024-11-01 16:55:15,693 - INFO - Informed scheduler that task   Load__99914b932b   has status   PENDING
+2024-11-01 16:55:15,694 - INFO - Informed scheduler that task   Extract__99914b932b   has status   PENDING
+2024-11-01 16:55:15,694 - DEBUG - Asking scheduler for work...
+2024-11-01 16:55:15,695 - DEBUG - Pending tasks: 1
+2024-11-01 16:55:15,695 - INFO - [pid 4640] Worker Worker(salt=8686192186, workers=1, host=Erlina, username=istywhyerlina, pid=4640) running   Load()
+2024-11-01 16:55:15,696 - ERROR - [pid 4640] Worker Worker(salt=8686192186, workers=1, host=Erlina, username=istywhyerlina, pid=4640) failed    Load()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 195, in run
+    raise RuntimeError('Unfulfilled %s at run time: %s' % (deps, ', '.join(missing)))
+RuntimeError: Unfulfilled dependency at run time: Extract__99914b932b (/home/istywhyerlina/datastorage_w7/pipeline/temp/public.flight_bookings2.csv, /home/istywhyerlina/datastorage_w7/pipeline/temp/public.hotel_bookings2.csv)
+2024-11-01 16:55:15,697 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 16:55:15,702 - INFO - Informed scheduler that task   Load__99914b932b   has status   FAILED
+2024-11-01 16:55:15,702 - DEBUG - Asking scheduler for work...
+2024-11-01 16:55:15,703 - DEBUG - Done
+2024-11-01 16:55:15,703 - DEBUG - There are no more tasks to run at this time
+2024-11-01 16:55:15,703 - DEBUG - There are 1 pending tasks possibly being run by other workers
+2024-11-01 16:55:15,703 - DEBUG - There are 1 pending tasks unique to this worker
+2024-11-01 16:55:15,703 - DEBUG - There are 1 pending tasks last scheduled by this worker
+2024-11-01 16:55:15,703 - INFO - Worker Worker(salt=8686192186, workers=1, host=Erlina, username=istywhyerlina, pid=4640) was stopped. Shutting down Keep-Alive thread
+2024-11-01 16:55:15,705 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+* 1 failed:
+    - 1 Load()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-11-01 16:58:30,043 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-01 16:58:30,050 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-01 16:58:30,058 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-01 16:58:30,062 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-01 16:58:30,071 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-01 16:58:30,164 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-01 16:58:30,169 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-01 16:58:30,180 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-01 16:58:30,180 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-01 16:58:30,182 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-01 16:58:30,182 - INFO - [pid 6401] Worker Worker(salt=4191216714, workers=1, host=Erlina, username=istywhyerlina, pid=6401) done      Extract()
+2024-11-01 16:58:30,183 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 16:58:30,184 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-01 16:58:30,184 - DEBUG - Asking scheduler for work...
+2024-11-01 16:58:30,184 - DEBUG - Done
+2024-11-01 16:58:30,184 - DEBUG - There are no more tasks to run at this time
+2024-11-01 16:58:30,184 - INFO - Worker Worker(salt=4191216714, workers=1, host=Erlina, username=istywhyerlina, pid=6401) was stopped. Shutting down Keep-Alive thread
+2024-11-01 16:58:30,185 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 ran successfully:
+    - 1 Extract()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-11-01 16:59:10,202 - INFO - Read Load Query - SUCCESS
+2024-11-01 16:59:10,248 - INFO - Read Extracted Data - SUCCESS
+2024-11-01 16:59:10,308 - INFO - Connect to DWH - SUCCESS
+2024-11-01 16:59:10,382 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-01 16:59:10,383 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-01 16:59:10,401 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-01 16:59:10,432 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-01 16:59:10,463 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-01 16:59:10,474 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-01 16:59:10,520 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-01 16:59:11,183 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-01 16:59:11,199 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-11-01 16:59:11,200 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-11-01 16:59:11,202 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-11-01 16:59:11,203 - INFO - [pid 6859] Worker Worker(salt=747539021, workers=1, host=Erlina, username=istywhyerlina, pid=6859) done      Load()
+2024-11-01 16:59:11,204 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 16:59:11,205 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-11-01 16:59:11,205 - DEBUG - Asking scheduler for work...
+2024-11-01 16:59:11,205 - DEBUG - Done
+2024-11-01 16:59:11,205 - DEBUG - There are no more tasks to run at this time
+2024-11-01 16:59:11,205 - INFO - Worker Worker(salt=747539021, workers=1, host=Erlina, username=istywhyerlina, pid=6859) was stopped. Shutting down Keep-Alive thread
+2024-11-01 16:59:11,206 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 1 complete ones were encountered:
+    - 1 Extract()
+* 1 ran successfully:
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-11-01 17:11:21,045 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-01 17:11:21,052 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-01 17:11:21,060 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-01 17:11:21,064 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-01 17:11:21,071 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-01 17:11:21,170 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-01 17:11:21,176 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-01 17:11:21,187 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-01 17:11:21,187 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-01 17:11:21,189 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-01 17:11:21,190 - INFO - [pid 15060] Worker Worker(salt=4692525913, workers=1, host=Erlina, username=istywhyerlina, pid=15060) done      Extract()
+2024-11-01 17:11:21,191 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 17:11:21,192 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-01 17:11:21,192 - DEBUG - Asking scheduler for work...
+2024-11-01 17:11:21,192 - DEBUG - Pending tasks: 5
+2024-11-01 17:11:21,192 - INFO - [pid 15060] Worker Worker(salt=4692525913, workers=1, host=Erlina, username=istywhyerlina, pid=15060) running   Load()
+2024-11-01 17:11:21,193 - INFO - Read Load Query - SUCCESS
+2024-11-01 17:11:21,232 - INFO - Read Extracted Data - SUCCESS
+2024-11-01 17:11:21,248 - INFO - Connect to DWH - SUCCESS
+2024-11-01 17:11:21,328 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-01 17:11:21,328 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-01 17:11:21,345 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-01 17:11:21,377 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-01 17:11:21,409 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-01 17:11:21,419 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-01 17:11:21,463 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-01 17:11:22,141 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-01 17:11:22,160 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-11-01 17:11:22,160 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-11-01 17:11:22,162 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-11-01 17:11:22,163 - INFO - [pid 15060] Worker Worker(salt=4692525913, workers=1, host=Erlina, username=istywhyerlina, pid=15060) done      Load()
+2024-11-01 17:11:22,163 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 17:11:22,164 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-11-01 17:11:22,164 - DEBUG - Asking scheduler for work...
+2024-11-01 17:11:22,164 - DEBUG - Pending tasks: 4
+2024-11-01 17:11:22,164 - INFO - [pid 15060] Worker Worker(salt=4692525913, workers=1, host=Erlina, username=istywhyerlina, pid=15060) running   dbtDebug()
+2024-11-01 17:11:25,807 - INFO - [pid 15060] Worker Worker(salt=4692525913, workers=1, host=Erlina, username=istywhyerlina, pid=15060) done      dbtDebug()
+2024-11-01 17:11:25,808 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 17:11:25,808 - INFO - Informed scheduler that task   dbtDebug__99914b932b   has status   DONE
+2024-11-01 17:11:25,809 - DEBUG - Asking scheduler for work...
+2024-11-01 17:11:25,809 - DEBUG - Pending tasks: 3
+2024-11-01 17:11:25,809 - INFO - [pid 15060] Worker Worker(salt=4692525913, workers=1, host=Erlina, username=istywhyerlina, pid=15060) running   dbtDeps()
+2024-11-01 17:11:34,355 - INFO - [pid 15060] Worker Worker(salt=4692525913, workers=1, host=Erlina, username=istywhyerlina, pid=15060) done      dbtDeps()
+2024-11-01 17:11:34,355 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 17:11:34,357 - INFO - Informed scheduler that task   dbtDeps__99914b932b   has status   DONE
+2024-11-01 17:11:34,357 - DEBUG - Asking scheduler for work...
+2024-11-01 17:11:34,358 - DEBUG - Pending tasks: 2
+2024-11-01 17:11:34,358 - INFO - [pid 15060] Worker Worker(salt=4692525913, workers=1, host=Erlina, username=istywhyerlina, pid=15060) running   dbtRun()
+2024-11-01 17:14:20,560 - ERROR - [pid 15060] Worker Worker(salt=4692525913, workers=1, host=Erlina, username=istywhyerlina, pid=15060) failed    dbtRun()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 460, in run
+    raise e
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 444, in run
+    p1 = sp.run(
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'cd ./pactravel/ && dbt build' returned non-zero exit status 1.
+2024-11-01 17:14:20,562 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-01 17:14:20,567 - INFO - Informed scheduler that task   dbtRun__99914b932b   has status   FAILED
+2024-11-01 17:14:20,567 - DEBUG - Asking scheduler for work...
+2024-11-01 17:14:20,569 - DEBUG - Done
+2024-11-01 17:14:20,569 - DEBUG - There are no more tasks to run at this time
+2024-11-01 17:14:20,569 - DEBUG - There are 2 pending tasks possibly being run by other workers
+2024-11-01 17:14:20,569 - DEBUG - There are 2 pending tasks unique to this worker
+2024-11-01 17:14:20,570 - DEBUG - There are 2 pending tasks last scheduled by this worker
+2024-11-01 17:14:20,570 - INFO - Worker Worker(salt=4692525913, workers=1, host=Erlina, username=istywhyerlina, pid=15060) was stopped. Shutting down Keep-Alive thread
+2024-11-01 17:14:20,573 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 6 tasks of which:
+* 4 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+    - 1 dbtDebug()
+    - 1 dbtDeps()
+* 1 failed:
+    - 1 dbtRun()
+* 1 were left pending, among these:
+    * 1 had failed dependencies:
+        - 1 dbtTest()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-11-02 08:18:33,929 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-02 08:18:33,966 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-02 08:18:33,976 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-02 08:18:33,980 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-02 08:18:33,992 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-02 08:18:34,106 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-02 08:18:34,111 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-02 08:18:34,123 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-02 08:18:34,123 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-02 08:18:34,137 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-02 08:18:34,138 - INFO - [pid 3698] Worker Worker(salt=4793908534, workers=1, host=Erlina, username=istywhyerlina, pid=3698) done      Extract()
+2024-11-02 08:18:34,140 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 08:18:34,141 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-02 08:18:34,141 - DEBUG - Asking scheduler for work...
+2024-11-02 08:18:34,141 - DEBUG - Pending tasks: 5
+2024-11-02 08:18:34,141 - INFO - [pid 3698] Worker Worker(salt=4793908534, workers=1, host=Erlina, username=istywhyerlina, pid=3698) running   Load()
+2024-11-02 08:18:34,148 - INFO - Read Load Query - SUCCESS
+2024-11-02 08:18:34,191 - INFO - Read Extracted Data - SUCCESS
+2024-11-02 08:18:34,214 - INFO - Connect to DWH - SUCCESS
+2024-11-02 08:18:34,321 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-02 08:18:34,321 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-02 08:18:34,338 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-02 08:18:34,372 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-02 08:18:34,410 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 08:18:34,420 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-02 08:18:34,470 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-02 08:18:35,247 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 08:18:35,270 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-11-02 08:18:35,270 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-11-02 08:18:35,273 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-11-02 08:18:35,274 - INFO - [pid 3698] Worker Worker(salt=4793908534, workers=1, host=Erlina, username=istywhyerlina, pid=3698) done      Load()
+2024-11-02 08:18:35,274 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 08:18:35,275 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-11-02 08:18:35,275 - DEBUG - Asking scheduler for work...
+2024-11-02 08:18:35,275 - DEBUG - Pending tasks: 4
+2024-11-02 08:18:35,275 - INFO - [pid 3698] Worker Worker(salt=4793908534, workers=1, host=Erlina, username=istywhyerlina, pid=3698) running   dbtDebug()
+2024-11-02 08:18:40,476 - INFO - [pid 3698] Worker Worker(salt=4793908534, workers=1, host=Erlina, username=istywhyerlina, pid=3698) done      dbtDebug()
+2024-11-02 08:18:40,477 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 08:18:40,478 - INFO - Informed scheduler that task   dbtDebug__99914b932b   has status   DONE
+2024-11-02 08:18:40,478 - DEBUG - Asking scheduler for work...
+2024-11-02 08:18:40,479 - DEBUG - Pending tasks: 3
+2024-11-02 08:18:40,479 - INFO - [pid 3698] Worker Worker(salt=4793908534, workers=1, host=Erlina, username=istywhyerlina, pid=3698) running   dbtDeps()
+2024-11-02 08:18:49,790 - INFO - [pid 3698] Worker Worker(salt=4793908534, workers=1, host=Erlina, username=istywhyerlina, pid=3698) done      dbtDeps()
+2024-11-02 08:18:49,791 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 08:18:49,792 - INFO - Informed scheduler that task   dbtDeps__99914b932b   has status   DONE
+2024-11-02 08:18:49,792 - DEBUG - Asking scheduler for work...
+2024-11-02 08:18:49,792 - DEBUG - Pending tasks: 2
+2024-11-02 08:18:49,792 - INFO - [pid 3698] Worker Worker(salt=4793908534, workers=1, host=Erlina, username=istywhyerlina, pid=3698) running   dbtRun()
+2024-11-02 08:21:48,083 - ERROR - [pid 3698] Worker Worker(salt=4793908534, workers=1, host=Erlina, username=istywhyerlina, pid=3698) failed    dbtRun()
+Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 210, in run
+    new_deps = self._run_get_new_deps()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/luigi/worker.py", line 138, in _run_get_new_deps
+    task_gen = self.task.run()
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 460, in run
+    raise e
+  File "/home/istywhyerlina/datastorage_w7/elt_pipeline.py", line 444, in run
+    p1 = sp.run(
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'cd ./pactravel/ && dbt build' returned non-zero exit status 1.
+2024-11-02 08:21:48,094 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 08:21:48,098 - INFO - Informed scheduler that task   dbtRun__99914b932b   has status   FAILED
+2024-11-02 08:21:48,098 - DEBUG - Asking scheduler for work...
+2024-11-02 08:21:48,098 - DEBUG - Done
+2024-11-02 08:21:48,099 - DEBUG - There are no more tasks to run at this time
+2024-11-02 08:21:48,099 - DEBUG - There are 2 pending tasks possibly being run by other workers
+2024-11-02 08:21:48,099 - DEBUG - There are 2 pending tasks unique to this worker
+2024-11-02 08:21:48,099 - DEBUG - There are 2 pending tasks last scheduled by this worker
+2024-11-02 08:21:48,099 - INFO - Worker Worker(salt=4793908534, workers=1, host=Erlina, username=istywhyerlina, pid=3698) was stopped. Shutting down Keep-Alive thread
+2024-11-02 08:21:48,101 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 6 tasks of which:
+* 4 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+    - 1 dbtDebug()
+    - 1 dbtDeps()
+* 1 failed:
+    - 1 dbtRun()
+* 1 were left pending, among these:
+    * 1 had failed dependencies:
+        - 1 dbtTest()
+
+This progress looks :( because there were failed tasks
+
+===== Luigi Execution Summary =====
+
+2024-11-02 10:15:05,291 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-02 10:15:05,320 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-02 10:15:05,330 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-02 10:15:05,334 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-02 10:15:05,351 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-02 10:15:05,442 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-02 10:15:05,447 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-02 10:15:05,459 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-02 10:15:05,459 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-02 10:15:05,472 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-02 10:15:05,473 - INFO - [pid 61577] Worker Worker(salt=1435403610, workers=1, host=Erlina, username=istywhyerlina, pid=61577) done      Extract()
+2024-11-02 10:15:05,474 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 10:15:05,474 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-02 10:15:05,474 - DEBUG - Asking scheduler for work...
+2024-11-02 10:15:05,475 - DEBUG - Pending tasks: 1
+2024-11-02 10:15:05,475 - INFO - [pid 61577] Worker Worker(salt=1435403610, workers=1, host=Erlina, username=istywhyerlina, pid=61577) running   Load()
+2024-11-02 10:15:05,478 - INFO - Read Load Query - SUCCESS
+2024-11-02 10:15:05,520 - INFO - Read Extracted Data - SUCCESS
+2024-11-02 10:15:05,531 - INFO - Connect to DWH - SUCCESS
+2024-11-02 10:15:05,618 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-02 10:15:05,618 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-02 10:15:05,632 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-02 10:15:05,675 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-02 10:15:05,703 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 10:15:05,711 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-02 10:15:05,752 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-02 10:15:06,418 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 10:15:06,437 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-11-02 10:15:06,437 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-11-02 10:15:06,439 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-11-02 10:15:06,439 - INFO - [pid 61577] Worker Worker(salt=1435403610, workers=1, host=Erlina, username=istywhyerlina, pid=61577) done      Load()
+2024-11-02 10:15:06,440 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 10:15:06,440 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-11-02 10:15:06,441 - DEBUG - Asking scheduler for work...
+2024-11-02 10:15:06,441 - DEBUG - Done
+2024-11-02 10:15:06,441 - DEBUG - There are no more tasks to run at this time
+2024-11-02 10:15:06,441 - INFO - Worker Worker(salt=1435403610, workers=1, host=Erlina, username=istywhyerlina, pid=61577) was stopped. Shutting down Keep-Alive thread
+2024-11-02 10:15:06,442 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 2 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-11-02 10:19:03,748 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-02 10:19:03,754 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-02 10:19:03,762 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-02 10:19:03,766 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-02 10:19:03,773 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-02 10:19:03,859 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-02 10:19:03,864 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-02 10:19:03,875 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-02 10:19:03,875 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-02 10:19:03,877 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-02 10:19:03,878 - INFO - [pid 64070] Worker Worker(salt=9674893704, workers=1, host=Erlina, username=istywhyerlina, pid=64070) done      Extract()
+2024-11-02 10:19:03,879 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 10:19:03,880 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-02 10:19:03,880 - DEBUG - Asking scheduler for work...
+2024-11-02 10:19:03,880 - DEBUG - Pending tasks: 1
+2024-11-02 10:19:03,880 - INFO - [pid 64070] Worker Worker(salt=9674893704, workers=1, host=Erlina, username=istywhyerlina, pid=64070) running   Load()
+2024-11-02 10:19:03,881 - INFO - Read Load Query - SUCCESS
+2024-11-02 10:19:03,916 - INFO - Read Extracted Data - SUCCESS
+2024-11-02 10:19:03,930 - INFO - Connect to DWH - SUCCESS
+2024-11-02 10:19:04,039 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-02 10:19:04,039 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-02 10:19:04,051 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-02 10:19:04,085 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-02 10:19:04,115 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 10:19:04,124 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-02 10:19:04,166 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-02 10:19:04,851 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 10:19:04,891 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-11-02 10:19:04,891 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-11-02 10:19:04,894 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-11-02 10:19:04,896 - INFO - [pid 64070] Worker Worker(salt=9674893704, workers=1, host=Erlina, username=istywhyerlina, pid=64070) done      Load()
+2024-11-02 10:19:04,897 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 10:19:04,899 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-11-02 10:19:04,899 - DEBUG - Asking scheduler for work...
+2024-11-02 10:19:04,900 - DEBUG - Done
+2024-11-02 10:19:04,900 - DEBUG - There are no more tasks to run at this time
+2024-11-02 10:19:04,901 - INFO - Worker Worker(salt=9674893704, workers=1, host=Erlina, username=istywhyerlina, pid=64070) was stopped. Shutting down Keep-Alive thread
+2024-11-02 10:19:04,903 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 2 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-11-02 10:21:24,761 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-02 10:21:24,768 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-02 10:21:24,775 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-02 10:21:24,779 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-02 10:21:24,787 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-02 10:21:24,902 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-02 10:21:24,908 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-02 10:21:24,922 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-02 10:21:24,923 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-02 10:21:24,925 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-02 10:21:24,925 - INFO - [pid 66176] Worker Worker(salt=5671126651, workers=1, host=Erlina, username=istywhyerlina, pid=66176) done      Extract()
+2024-11-02 10:21:24,926 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 10:21:24,927 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-02 10:21:24,927 - DEBUG - Asking scheduler for work...
+2024-11-02 10:21:24,928 - DEBUG - Pending tasks: 5
+2024-11-02 10:21:24,928 - INFO - [pid 66176] Worker Worker(salt=5671126651, workers=1, host=Erlina, username=istywhyerlina, pid=66176) running   Load()
+2024-11-02 10:21:24,928 - INFO - Read Load Query - SUCCESS
+2024-11-02 10:21:24,965 - INFO - Read Extracted Data - SUCCESS
+2024-11-02 10:21:24,981 - INFO - Connect to DWH - SUCCESS
+2024-11-02 10:21:25,079 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-02 10:21:25,079 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-02 10:21:25,096 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-02 10:21:25,141 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-02 10:21:25,177 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 10:21:25,188 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-02 10:21:25,238 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-02 10:21:25,970 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 10:21:25,994 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-11-02 10:21:25,994 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-11-02 10:21:25,996 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-11-02 10:21:25,997 - INFO - [pid 66176] Worker Worker(salt=5671126651, workers=1, host=Erlina, username=istywhyerlina, pid=66176) done      Load()
+2024-11-02 10:21:25,997 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 10:21:25,998 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-11-02 10:21:25,998 - DEBUG - Asking scheduler for work...
+2024-11-02 10:21:25,998 - DEBUG - Pending tasks: 4
+2024-11-02 10:21:25,998 - INFO - [pid 66176] Worker Worker(salt=5671126651, workers=1, host=Erlina, username=istywhyerlina, pid=66176) running   dbtDebug()
+2024-11-02 10:21:30,674 - INFO - [pid 66176] Worker Worker(salt=5671126651, workers=1, host=Erlina, username=istywhyerlina, pid=66176) done      dbtDebug()
+2024-11-02 10:21:30,675 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 10:21:30,676 - INFO - Informed scheduler that task   dbtDebug__99914b932b   has status   DONE
+2024-11-02 10:21:30,676 - DEBUG - Asking scheduler for work...
+2024-11-02 10:21:30,677 - DEBUG - Pending tasks: 3
+2024-11-02 10:21:30,677 - INFO - [pid 66176] Worker Worker(salt=5671126651, workers=1, host=Erlina, username=istywhyerlina, pid=66176) running   dbtDeps()
+2024-11-02 10:21:44,209 - INFO - [pid 66176] Worker Worker(salt=5671126651, workers=1, host=Erlina, username=istywhyerlina, pid=66176) done      dbtDeps()
+2024-11-02 10:21:44,210 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 10:21:44,211 - INFO - Informed scheduler that task   dbtDeps__99914b932b   has status   DONE
+2024-11-02 10:21:44,211 - DEBUG - Asking scheduler for work...
+2024-11-02 10:21:44,211 - DEBUG - Pending tasks: 2
+2024-11-02 10:21:44,211 - INFO - [pid 66176] Worker Worker(salt=5671126651, workers=1, host=Erlina, username=istywhyerlina, pid=66176) running   dbtRun()
+2024-11-02 10:24:24,217 - INFO - [pid 66176] Worker Worker(salt=5671126651, workers=1, host=Erlina, username=istywhyerlina, pid=66176) done      dbtRun()
+2024-11-02 10:24:24,218 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 10:24:24,220 - INFO - Informed scheduler that task   dbtRun__99914b932b   has status   DONE
+2024-11-02 10:24:24,220 - DEBUG - Asking scheduler for work...
+2024-11-02 10:24:24,221 - DEBUG - Pending tasks: 1
+2024-11-02 10:24:24,221 - INFO - [pid 66176] Worker Worker(salt=5671126651, workers=1, host=Erlina, username=istywhyerlina, pid=66176) running   dbtTest()
+2024-11-02 10:24:33,881 - INFO - [pid 66176] Worker Worker(salt=5671126651, workers=1, host=Erlina, username=istywhyerlina, pid=66176) done      dbtTest()
+2024-11-02 10:24:33,882 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 10:24:33,883 - INFO - Informed scheduler that task   dbtTest__99914b932b   has status   DONE
+2024-11-02 10:24:33,883 - DEBUG - Asking scheduler for work...
+2024-11-02 10:24:33,883 - DEBUG - Done
+2024-11-02 10:24:33,883 - DEBUG - There are no more tasks to run at this time
+2024-11-02 10:24:33,883 - INFO - Worker Worker(salt=5671126651, workers=1, host=Erlina, username=istywhyerlina, pid=66176) was stopped. Shutting down Keep-Alive thread
+2024-11-02 10:24:33,885 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 6 tasks of which:
+* 6 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+    - 1 dbtDebug()
+    - 1 dbtDeps()
+    - 1 dbtRun()
+    ...
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-11-02 11:26:05,252 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-02 11:26:05,267 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-02 11:26:05,272 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-02 11:26:05,274 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-02 11:26:05,286 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-02 11:26:05,338 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-02 11:26:05,345 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-02 11:26:05,353 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-02 11:26:05,353 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-02 11:26:05,355 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-02 11:26:05,356 - INFO - [pid 103822] Worker Worker(salt=6369227028, workers=1, host=Erlina, username=istywhyerlina, pid=103822) done      Extract()
+2024-11-02 11:26:05,357 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 11:26:05,358 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-02 11:26:05,358 - DEBUG - Asking scheduler for work...
+2024-11-02 11:26:05,358 - DEBUG - Pending tasks: 5
+2024-11-02 11:26:05,358 - INFO - [pid 103822] Worker Worker(salt=6369227028, workers=1, host=Erlina, username=istywhyerlina, pid=103822) running   Load()
+2024-11-02 11:26:05,360 - INFO - Read Load Query - SUCCESS
+2024-11-02 11:26:05,380 - INFO - Read Extracted Data - SUCCESS
+2024-11-02 11:26:05,391 - INFO - Connect to DWH - SUCCESS
+2024-11-02 11:26:05,437 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-02 11:26:05,437 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-02 11:26:05,447 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-02 11:26:05,466 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-02 11:26:05,484 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 11:26:05,490 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-02 11:26:05,515 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-02 11:26:05,863 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 11:26:05,875 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-11-02 11:26:05,875 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-11-02 11:26:05,876 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-11-02 11:26:05,876 - INFO - [pid 103822] Worker Worker(salt=6369227028, workers=1, host=Erlina, username=istywhyerlina, pid=103822) done      Load()
+2024-11-02 11:26:05,877 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 11:26:05,878 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-11-02 11:26:05,878 - DEBUG - Asking scheduler for work...
+2024-11-02 11:26:05,878 - DEBUG - Pending tasks: 4
+2024-11-02 11:26:05,878 - INFO - [pid 103822] Worker Worker(salt=6369227028, workers=1, host=Erlina, username=istywhyerlina, pid=103822) running   dbtDebug()
+2024-11-02 11:26:09,567 - INFO - [pid 103822] Worker Worker(salt=6369227028, workers=1, host=Erlina, username=istywhyerlina, pid=103822) done      dbtDebug()
+2024-11-02 11:26:09,567 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 11:26:09,567 - INFO - Informed scheduler that task   dbtDebug__99914b932b   has status   DONE
+2024-11-02 11:26:09,568 - DEBUG - Asking scheduler for work...
+2024-11-02 11:26:09,568 - DEBUG - Pending tasks: 3
+2024-11-02 11:26:09,568 - INFO - [pid 103822] Worker Worker(salt=6369227028, workers=1, host=Erlina, username=istywhyerlina, pid=103822) running   dbtDeps()
+2024-11-02 11:26:18,975 - INFO - [pid 103822] Worker Worker(salt=6369227028, workers=1, host=Erlina, username=istywhyerlina, pid=103822) done      dbtDeps()
+2024-11-02 11:26:18,975 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 11:26:18,976 - INFO - Informed scheduler that task   dbtDeps__99914b932b   has status   DONE
+2024-11-02 11:26:18,976 - DEBUG - Asking scheduler for work...
+2024-11-02 11:26:18,976 - DEBUG - Pending tasks: 2
+2024-11-02 11:26:18,976 - INFO - [pid 103822] Worker Worker(salt=6369227028, workers=1, host=Erlina, username=istywhyerlina, pid=103822) running   dbtRun()
+2024-11-02 11:27:58,517 - INFO - [pid 103822] Worker Worker(salt=6369227028, workers=1, host=Erlina, username=istywhyerlina, pid=103822) done      dbtRun()
+2024-11-02 11:27:58,518 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 11:27:58,518 - INFO - Informed scheduler that task   dbtRun__99914b932b   has status   DONE
+2024-11-02 11:27:58,518 - DEBUG - Asking scheduler for work...
+2024-11-02 11:27:58,518 - DEBUG - Pending tasks: 1
+2024-11-02 11:27:58,518 - INFO - [pid 103822] Worker Worker(salt=6369227028, workers=1, host=Erlina, username=istywhyerlina, pid=103822) running   dbtTest()
+2024-11-02 11:28:04,284 - INFO - [pid 103822] Worker Worker(salt=6369227028, workers=1, host=Erlina, username=istywhyerlina, pid=103822) done      dbtTest()
+2024-11-02 11:28:04,284 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 11:28:04,284 - INFO - Informed scheduler that task   dbtTest__99914b932b   has status   DONE
+2024-11-02 11:28:04,285 - DEBUG - Asking scheduler for work...
+2024-11-02 11:28:04,285 - DEBUG - Done
+2024-11-02 11:28:04,285 - DEBUG - There are no more tasks to run at this time
+2024-11-02 11:28:04,285 - INFO - Worker Worker(salt=6369227028, workers=1, host=Erlina, username=istywhyerlina, pid=103822) was stopped. Shutting down Keep-Alive thread
+2024-11-02 11:28:04,286 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 6 tasks of which:
+* 6 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+    - 1 dbtDebug()
+    - 1 dbtDeps()
+    - 1 dbtRun()
+    ...
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-11-02 12:50:02,413 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-02 12:50:02,463 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-02 12:50:02,473 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-02 12:50:02,476 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-02 12:50:02,488 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-02 12:50:02,588 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-02 12:50:02,594 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-02 12:50:02,606 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-02 12:50:02,606 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-02 12:50:02,620 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-02 12:50:02,621 - INFO - [pid 166005] Worker Worker(salt=7613196055, workers=1, host=Erlina, username=istywhyerlina, pid=166005) done      Extract()
+2024-11-02 12:50:02,622 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 12:50:02,623 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-02 12:50:02,623 - DEBUG - Asking scheduler for work...
+2024-11-02 12:50:02,623 - DEBUG - Pending tasks: 5
+2024-11-02 12:50:02,624 - INFO - [pid 166005] Worker Worker(salt=7613196055, workers=1, host=Erlina, username=istywhyerlina, pid=166005) running   Load()
+2024-11-02 12:50:02,629 - INFO - Read Load Query - SUCCESS
+2024-11-02 12:50:02,665 - INFO - Read Extracted Data - SUCCESS
+2024-11-02 12:50:02,677 - INFO - Connect to DWH - SUCCESS
+2024-11-02 12:50:02,754 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-02 12:50:02,754 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-02 12:50:02,771 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-02 12:50:02,807 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-02 12:50:02,842 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 12:50:02,851 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-02 12:50:02,896 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-02 12:50:03,599 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 12:50:03,621 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-11-02 12:50:03,621 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-11-02 12:50:03,622 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-11-02 12:50:03,623 - INFO - [pid 166005] Worker Worker(salt=7613196055, workers=1, host=Erlina, username=istywhyerlina, pid=166005) done      Load()
+2024-11-02 12:50:03,624 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 12:50:03,624 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-11-02 12:50:03,625 - DEBUG - Asking scheduler for work...
+2024-11-02 12:50:03,625 - DEBUG - Pending tasks: 4
+2024-11-02 12:50:03,625 - INFO - [pid 166005] Worker Worker(salt=7613196055, workers=1, host=Erlina, username=istywhyerlina, pid=166005) running   dbtDebug()
+2024-11-02 12:50:07,009 - INFO - [pid 166005] Worker Worker(salt=7613196055, workers=1, host=Erlina, username=istywhyerlina, pid=166005) done      dbtDebug()
+2024-11-02 12:50:07,010 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 12:50:07,011 - INFO - Informed scheduler that task   dbtDebug__99914b932b   has status   DONE
+2024-11-02 12:50:07,011 - DEBUG - Asking scheduler for work...
+2024-11-02 12:50:07,011 - DEBUG - Pending tasks: 3
+2024-11-02 12:50:07,012 - INFO - [pid 166005] Worker Worker(salt=7613196055, workers=1, host=Erlina, username=istywhyerlina, pid=166005) running   dbtDeps()
+2024-11-02 12:50:16,386 - INFO - [pid 166005] Worker Worker(salt=7613196055, workers=1, host=Erlina, username=istywhyerlina, pid=166005) done      dbtDeps()
+2024-11-02 12:50:16,387 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 12:50:16,388 - INFO - Informed scheduler that task   dbtDeps__99914b932b   has status   DONE
+2024-11-02 12:50:16,388 - DEBUG - Asking scheduler for work...
+2024-11-02 12:50:16,389 - DEBUG - Pending tasks: 2
+2024-11-02 12:50:16,389 - INFO - [pid 166005] Worker Worker(salt=7613196055, workers=1, host=Erlina, username=istywhyerlina, pid=166005) running   dbtRun()
+2024-11-02 12:53:19,007 - INFO - [pid 166005] Worker Worker(salt=7613196055, workers=1, host=Erlina, username=istywhyerlina, pid=166005) done      dbtRun()
+2024-11-02 12:53:19,008 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 12:53:19,008 - INFO - Informed scheduler that task   dbtRun__99914b932b   has status   DONE
+2024-11-02 12:53:19,008 - DEBUG - Asking scheduler for work...
+2024-11-02 12:53:19,009 - DEBUG - Pending tasks: 1
+2024-11-02 12:53:19,009 - INFO - [pid 166005] Worker Worker(salt=7613196055, workers=1, host=Erlina, username=istywhyerlina, pid=166005) running   dbtTest()
+2024-11-02 12:53:29,353 - INFO - [pid 166005] Worker Worker(salt=7613196055, workers=1, host=Erlina, username=istywhyerlina, pid=166005) done      dbtTest()
+2024-11-02 12:53:29,354 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 12:53:29,355 - INFO - Informed scheduler that task   dbtTest__99914b932b   has status   DONE
+2024-11-02 12:53:29,355 - DEBUG - Asking scheduler for work...
+2024-11-02 12:53:29,355 - DEBUG - Done
+2024-11-02 12:53:29,355 - DEBUG - There are no more tasks to run at this time
+2024-11-02 12:53:29,357 - INFO - Worker Worker(salt=7613196055, workers=1, host=Erlina, username=istywhyerlina, pid=166005) was stopped. Shutting down Keep-Alive thread
+2024-11-02 12:53:29,359 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 6 tasks of which:
+* 6 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+    - 1 dbtDebug()
+    - 1 dbtDeps()
+    - 1 dbtRun()
+    ...
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+

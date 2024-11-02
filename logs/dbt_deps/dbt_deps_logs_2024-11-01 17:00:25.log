@@ -1,0 +1,16 @@
+[0m10:00:31  Running with dbt=1.9.0-b2
+[0m10:00:32  Installing dbt-labs/dbt_utils
+[0m10:00:33  Installed from version 1.3.0
+[0m10:00:33  Up to date!
+[0m10:00:33  Installing calogica/dbt_expectations
+[0m10:00:34  Installed from version 0.10.4
+[0m10:00:34  Up to date!
+[0m10:00:34  Installing Snowflake-Labs/dbt_constraints
+[0m10:00:35  Installed from version 0.6.3
+[0m10:00:35  Updated version available: 1.0.4
+[0m10:00:35  Installing calogica/dbt_date
+[0m10:00:36  Installed from version 0.10.1
+[0m10:00:36  Up to date!
+[0m10:00:36  
+[0m10:00:36  Updates available for packages: ['Snowflake-Labs/dbt_constraints']                 
+Update your versions in packages.yml, then run dbt deps

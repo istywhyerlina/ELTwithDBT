@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: pactravel
+    database: pactravel
+    schema: pactravel
+    tables:
+      - name: aircrafts
+      - name: airlines
+      - name: airports
+      - name: customers
+      - name: flight_bookings
+      - name: hotel
+      - name: hotel_bookings

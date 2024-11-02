@@ -1,0 +1,236 @@
+[0m05:53:20  Running with dbt=1.9.0-b2
+[0m05:53:20  Registered adapter: postgres=1.8.2
+[0m05:53:21  Found 16 models, 2 seeds, 1 operation, 82 data tests, 7 sources, 889 macros
+[0m05:53:21  
+[0m05:53:21  Concurrency: 1 threads (target='dev')
+[0m05:53:21  
+[0m05:53:21  1 of 82 START test dbt_constraints_foreign_key_fct_bookings_booking_date_local__date_id__ref_dim_dates_  [RUN]
+[0m05:53:21  1 of 82 PASS dbt_constraints_foreign_key_fct_bookings_booking_date_local__date_id__ref_dim_dates_  [[32mPASS[0m in 0.11s]
+[0m05:53:21  2 of 82 START test dbt_constraints_foreign_key_fct_bookings_booking_date_utc__date_id__ref_dim_dates_  [RUN]
+[0m05:53:21  2 of 82 PASS dbt_constraints_foreign_key_fct_bookings_booking_date_utc__date_id__ref_dim_dates_  [[32mPASS[0m in 0.04s]
+[0m05:53:21  3 of 82 START test dbt_constraints_foreign_key_fct_bookings_customer_id__sk_customer_id__ref_dim_customers_  [RUN]
+[0m05:53:22  3 of 82 PASS dbt_constraints_foreign_key_fct_bookings_customer_id__sk_customer_id__ref_dim_customers_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  4 of 82 START test dbt_constraints_foreign_key_fct_bookings_trip_date_local__date_id__ref_dim_dates_  [RUN]
+[0m05:53:22  4 of 82 PASS dbt_constraints_foreign_key_fct_bookings_trip_date_local__date_id__ref_dim_dates_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  5 of 82 START test dbt_constraints_foreign_key_fct_bookings_trip_date_utc__date_id__ref_dim_dates_  [RUN]
+[0m05:53:22  5 of 82 PASS dbt_constraints_foreign_key_fct_bookings_trip_date_utc__date_id__ref_dim_dates_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  6 of 82 START test dbt_constraints_foreign_key_fct_bookings_trip_id__sk_trip_id__ref_dim_trip_  [RUN]
+[0m05:53:22  6 of 82 PASS dbt_constraints_foreign_key_fct_bookings_trip_id__sk_trip_id__ref_dim_trip_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  7 of 82 START test dbt_constraints_foreign_key_fct_flight_bookings_aircraft_id__sk_aircraft_id__ref_dim_aircrafts_  [RUN]
+[0m05:53:22  7 of 82 PASS dbt_constraints_foreign_key_fct_flight_bookings_aircraft_id__sk_aircraft_id__ref_dim_aircrafts_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  8 of 82 START test dbt_constraints_foreign_key_fct_flight_bookings_airline_id__sk_airline_id__ref_dim_airlines_  [RUN]
+[0m05:53:22  8 of 82 PASS dbt_constraints_foreign_key_fct_flight_bookings_airline_id__sk_airline_id__ref_dim_airlines_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  9 of 82 START test dbt_constraints_foreign_key_fct_flight_bookings_airport_dst__sk_airport_id__ref_dim_airports_  [RUN]
+[0m05:53:22  9 of 82 PASS dbt_constraints_foreign_key_fct_flight_bookings_airport_dst__sk_airport_id__ref_dim_airports_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  10 of 82 START test dbt_constraints_foreign_key_fct_flight_bookings_airport_src__sk_airport_id__ref_dim_airports_  [RUN]
+[0m05:53:22  10 of 82 PASS dbt_constraints_foreign_key_fct_flight_bookings_airport_src__sk_airport_id__ref_dim_airports_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  11 of 82 START test dbt_constraints_foreign_key_fct_flight_bookings_booking_date_local__date_id__ref_dim_dates_  [RUN]
+[0m05:53:22  11 of 82 PASS dbt_constraints_foreign_key_fct_flight_bookings_booking_date_local__date_id__ref_dim_dates_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  12 of 82 START test dbt_constraints_foreign_key_fct_flight_bookings_booking_date_utc__date_id__ref_dim_dates_  [RUN]
+[0m05:53:22  12 of 82 PASS dbt_constraints_foreign_key_fct_flight_bookings_booking_date_utc__date_id__ref_dim_dates_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  13 of 82 START test dbt_constraints_foreign_key_fct_flight_bookings_customer_id__sk_customer_id__ref_dim_customers_  [RUN]
+[0m05:53:22  13 of 82 PASS dbt_constraints_foreign_key_fct_flight_bookings_customer_id__sk_customer_id__ref_dim_customers_  [[32mPASS[0m in 0.03s]
+[0m05:53:22  14 of 82 START test dbt_constraints_foreign_key_fct_flight_bookings_scheduled_departure_date_local__date_id__ref_dim_dates_  [RUN]
+[0m05:53:22  14 of 82 PASS dbt_constraints_foreign_key_fct_flight_bookings_scheduled_departure_date_local__date_id__ref_dim_dates_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  15 of 82 START test dbt_constraints_foreign_key_fct_flight_bookings_scheduled_departure_date_utc__date_id__ref_dim_dates_  [RUN]
+[0m05:53:22  15 of 82 PASS dbt_constraints_foreign_key_fct_flight_bookings_scheduled_departure_date_utc__date_id__ref_dim_dates_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  16 of 82 START test dbt_constraints_foreign_key_fct_flight_bookings_scheduled_departure_time_local__time_id__ref_dim_times_  [RUN]
+[0m05:53:22  16 of 82 PASS dbt_constraints_foreign_key_fct_flight_bookings_scheduled_departure_time_local__time_id__ref_dim_times_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  17 of 82 START test dbt_constraints_foreign_key_fct_flight_bookings_scheduled_departure_time_utc__time_id__ref_dim_times_  [RUN]
+[0m05:53:22  17 of 82 PASS dbt_constraints_foreign_key_fct_flight_bookings_scheduled_departure_time_utc__time_id__ref_dim_times_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  18 of 82 START test dbt_constraints_foreign_key_fct_flight_bookings_trip_id__sk_trip_id__ref_dim_trip_  [RUN]
+[0m05:53:22  18 of 82 PASS dbt_constraints_foreign_key_fct_flight_bookings_trip_id__sk_trip_id__ref_dim_trip_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  19 of 82 START test dbt_constraints_foreign_key_fct_hotel_bookings_booking_date_local__date_id__ref_dim_dates_  [RUN]
+[0m05:53:22  19 of 82 PASS dbt_constraints_foreign_key_fct_hotel_bookings_booking_date_local__date_id__ref_dim_dates_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  20 of 82 START test dbt_constraints_foreign_key_fct_hotel_bookings_booking_date_utc__date_id__ref_dim_dates_  [RUN]
+[0m05:53:22  20 of 82 PASS dbt_constraints_foreign_key_fct_hotel_bookings_booking_date_utc__date_id__ref_dim_dates_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  21 of 82 START test dbt_constraints_foreign_key_fct_hotel_bookings_check_in_date_local__date_id__ref_dim_dates_  [RUN]
+[0m05:53:22  21 of 82 PASS dbt_constraints_foreign_key_fct_hotel_bookings_check_in_date_local__date_id__ref_dim_dates_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  22 of 82 START test dbt_constraints_foreign_key_fct_hotel_bookings_check_in_date_utc__date_id__ref_dim_dates_  [RUN]
+[0m05:53:22  22 of 82 PASS dbt_constraints_foreign_key_fct_hotel_bookings_check_in_date_utc__date_id__ref_dim_dates_  [[32mPASS[0m in 0.04s]
+[0m05:53:22  23 of 82 START test dbt_constraints_foreign_key_fct_hotel_bookings_check_out_date_local__date_id__ref_dim_dates_  [RUN]
+[0m05:53:22  23 of 82 PASS dbt_constraints_foreign_key_fct_hotel_bookings_check_out_date_local__date_id__ref_dim_dates_  [[32mPASS[0m in 0.05s]
+[0m05:53:22  24 of 82 START test dbt_constraints_foreign_key_fct_hotel_bookings_check_out_date_utc__date_id__ref_dim_dates_  [RUN]
+[0m05:53:23  24 of 82 PASS dbt_constraints_foreign_key_fct_hotel_bookings_check_out_date_utc__date_id__ref_dim_dates_  [[32mPASS[0m in 0.11s]
+[0m05:53:23  25 of 82 START test dbt_constraints_foreign_key_fct_hotel_bookings_customer_id__sk_customer_id__ref_dim_customers_  [RUN]
+[0m05:53:23  25 of 82 PASS dbt_constraints_foreign_key_fct_hotel_bookings_customer_id__sk_customer_id__ref_dim_customers_  [[32mPASS[0m in 0.04s]
+[0m05:53:23  26 of 82 START test dbt_constraints_foreign_key_fct_hotel_bookings_hotel_id__sk_hotels_id__ref_dim_hotel_  [RUN]
+[0m05:53:23  26 of 82 PASS dbt_constraints_foreign_key_fct_hotel_bookings_hotel_id__sk_hotels_id__ref_dim_hotel_  [[32mPASS[0m in 0.03s]
+[0m05:53:23  27 of 82 START test dbt_constraints_foreign_key_fct_hotel_bookings_trip_id__sk_trip_id__ref_dim_trip_  [RUN]
+[0m05:53:23  27 of 82 PASS dbt_constraints_foreign_key_fct_hotel_bookings_trip_id__sk_trip_id__ref_dim_trip_  [[32mPASS[0m in 0.04s]
+[0m05:53:23  28 of 82 START test dbt_constraints_primary_key_dim_aircrafts_sk_aircraft_id ... [RUN]
+[0m05:53:23  28 of 82 PASS dbt_constraints_primary_key_dim_aircrafts_sk_aircraft_id ......... [[32mPASS[0m in 0.04s]
+[0m05:53:23  29 of 82 START test dbt_constraints_primary_key_dim_airlines_sk_airline_id ..... [RUN]
+[0m05:53:23  29 of 82 PASS dbt_constraints_primary_key_dim_airlines_sk_airline_id ........... [[32mPASS[0m in 0.03s]
+[0m05:53:23  30 of 82 START test dbt_constraints_primary_key_dim_airports_sk_airport_id ..... [RUN]
+[0m05:53:23  30 of 82 PASS dbt_constraints_primary_key_dim_airports_sk_airport_id ........... [[32mPASS[0m in 0.03s]
+[0m05:53:23  31 of 82 START test dbt_constraints_primary_key_dim_customers_sk_customer_id ... [RUN]
+[0m05:53:23  31 of 82 PASS dbt_constraints_primary_key_dim_customers_sk_customer_id ......... [[32mPASS[0m in 0.04s]
+[0m05:53:23  32 of 82 START test dbt_constraints_primary_key_dim_dates_date_id .............. [RUN]
+[0m05:53:23  32 of 82 PASS dbt_constraints_primary_key_dim_dates_date_id .................... [[32mPASS[0m in 0.05s]
+[0m05:53:23  33 of 82 START test dbt_constraints_primary_key_dim_hotel_sk_hotels_id ......... [RUN]
+[0m05:53:23  33 of 82 PASS dbt_constraints_primary_key_dim_hotel_sk_hotels_id ............... [[32mPASS[0m in 0.03s]
+[0m05:53:23  34 of 82 START test dbt_constraints_primary_key_dim_times_time_id .............. [RUN]
+[0m05:53:23  34 of 82 PASS dbt_constraints_primary_key_dim_times_time_id .................... [[32mPASS[0m in 0.03s]
+[0m05:53:23  35 of 82 START test dbt_constraints_primary_key_dim_trip_sk_trip_id ............ [RUN]
+[0m05:53:23  35 of 82 PASS dbt_constraints_primary_key_dim_trip_sk_trip_id .................. [[32mPASS[0m in 0.03s]
+[0m05:53:23  36 of 82 START test dbt_constraints_primary_key_fct_bookings_sk_booking_id ..... [RUN]
+[0m05:53:23  36 of 82 PASS dbt_constraints_primary_key_fct_bookings_sk_booking_id ........... [[32mPASS[0m in 0.03s]
+[0m05:53:23  37 of 82 START test dbt_constraints_primary_key_fct_flight_bookings_sk_booking_id  [RUN]
+[0m05:53:23  37 of 82 PASS dbt_constraints_primary_key_fct_flight_bookings_sk_booking_id .... [[32mPASS[0m in 0.04s]
+[0m05:53:23  38 of 82 START test dbt_constraints_primary_key_fct_hotel_bookings_sk_booking_id  [RUN]
+[0m05:53:23  38 of 82 PASS dbt_constraints_primary_key_fct_hotel_bookings_sk_booking_id ..... [[32mPASS[0m in 0.03s]
+[0m05:53:23  39 of 82 START test not_null_dim_aircrafts_nk_aircraft_id ...................... [RUN]
+[0m05:53:23  39 of 82 PASS not_null_dim_aircrafts_nk_aircraft_id ............................ [[32mPASS[0m in 0.04s]
+[0m05:53:23  40 of 82 START test not_null_dim_aircrafts_sk_aircraft_id ...................... [RUN]
+[0m05:53:23  40 of 82 PASS not_null_dim_aircrafts_sk_aircraft_id ............................ [[32mPASS[0m in 0.04s]
+[0m05:53:23  41 of 82 START test not_null_dim_airlines_nk_airline_id ........................ [RUN]
+[0m05:53:23  41 of 82 PASS not_null_dim_airlines_nk_airline_id .............................. [[32mPASS[0m in 0.04s]
+[0m05:53:23  42 of 82 START test not_null_dim_airlines_sk_airline_id ........................ [RUN]
+[0m05:53:23  42 of 82 PASS not_null_dim_airlines_sk_airline_id .............................. [[32mPASS[0m in 0.03s]
+[0m05:53:23  43 of 82 START test not_null_dim_airports_nk_airport_id ........................ [RUN]
+[0m05:53:23  43 of 82 PASS not_null_dim_airports_nk_airport_id .............................. [[32mPASS[0m in 0.04s]
+[0m05:53:23  44 of 82 START test not_null_dim_airports_sk_airport_id ........................ [RUN]
+[0m05:53:23  44 of 82 PASS not_null_dim_airports_sk_airport_id .............................. [[32mPASS[0m in 0.04s]
+[0m05:53:23  45 of 82 START test not_null_dim_customers_nk_customer_id ...................... [RUN]
+[0m05:53:23  45 of 82 PASS not_null_dim_customers_nk_customer_id ............................ [[32mPASS[0m in 0.03s]
+[0m05:53:23  46 of 82 START test not_null_dim_customers_sk_customer_id ...................... [RUN]
+[0m05:53:23  46 of 82 PASS not_null_dim_customers_sk_customer_id ............................ [[32mPASS[0m in 0.03s]
+[0m05:53:23  47 of 82 START test not_null_dim_dates_date_id ................................. [RUN]
+[0m05:53:23  47 of 82 PASS not_null_dim_dates_date_id ....................................... [[32mPASS[0m in 0.04s]
+[0m05:53:23  48 of 82 START test not_null_dim_hotel_nk_hotel_id ............................. [RUN]
+[0m05:53:23  48 of 82 PASS not_null_dim_hotel_nk_hotel_id ................................... [[32mPASS[0m in 0.03s]
+[0m05:53:23  49 of 82 START test not_null_dim_hotel_sk_hotels_id ............................ [RUN]
+[0m05:53:23  49 of 82 PASS not_null_dim_hotel_sk_hotels_id .................................. [[32mPASS[0m in 0.03s]
+[0m05:53:23  50 of 82 START test not_null_dim_times_time_id ................................. [RUN]
+[0m05:53:24  50 of 82 PASS not_null_dim_times_time_id ....................................... [[32mPASS[0m in 0.03s]
+[0m05:53:24  51 of 82 START test not_null_dim_trip_nk_trip_id ............................... [RUN]
+[0m05:53:24  51 of 82 PASS not_null_dim_trip_nk_trip_id ..................................... [[32mPASS[0m in 0.04s]
+[0m05:53:24  52 of 82 START test not_null_dim_trip_sk_trip_id ............................... [RUN]
+[0m05:53:24  52 of 82 PASS not_null_dim_trip_sk_trip_id ..................................... [[32mPASS[0m in 0.03s]
+[0m05:53:24  53 of 82 START test not_null_fct_bookings_booking_date_local ................... [RUN]
+[0m05:53:24  53 of 82 PASS not_null_fct_bookings_booking_date_local ......................... [[32mPASS[0m in 0.03s]
+[0m05:53:24  54 of 82 START test not_null_fct_bookings_booking_date_utc ..................... [RUN]
+[0m05:53:24  54 of 82 PASS not_null_fct_bookings_booking_date_utc ........................... [[32mPASS[0m in 0.03s]
+[0m05:53:24  55 of 82 START test not_null_fct_bookings_customer_id .......................... [RUN]
+[0m05:53:24  55 of 82 PASS not_null_fct_bookings_customer_id ................................ [[32mPASS[0m in 0.04s]
+[0m05:53:24  56 of 82 START test not_null_fct_bookings_sk_booking_id ........................ [RUN]
+[0m05:53:24  56 of 82 PASS not_null_fct_bookings_sk_booking_id .............................. [[32mPASS[0m in 0.03s]
+[0m05:53:24  57 of 82 START test not_null_fct_bookings_trip_date_local ...................... [RUN]
+[0m05:53:24  57 of 82 PASS not_null_fct_bookings_trip_date_local ............................ [[32mPASS[0m in 0.04s]
+[0m05:53:24  58 of 82 START test not_null_fct_bookings_trip_date_utc ........................ [RUN]
+[0m05:53:24  58 of 82 PASS not_null_fct_bookings_trip_date_utc .............................. [[32mPASS[0m in 0.11s]
+[0m05:53:24  59 of 82 START test not_null_fct_bookings_trip_id .............................. [RUN]
+[0m05:53:24  59 of 82 PASS not_null_fct_bookings_trip_id .................................... [[32mPASS[0m in 0.04s]
+[0m05:53:24  60 of 82 START test not_null_fct_flight_bookings_aircraft_id ................... [RUN]
+[0m05:53:24  60 of 82 PASS not_null_fct_flight_bookings_aircraft_id ......................... [[32mPASS[0m in 0.03s]
+[0m05:53:24  61 of 82 START test not_null_fct_flight_bookings_airline_id .................... [RUN]
+[0m05:53:24  61 of 82 PASS not_null_fct_flight_bookings_airline_id .......................... [[32mPASS[0m in 0.04s]
+[0m05:53:24  62 of 82 START test not_null_fct_flight_bookings_airport_dst ................... [RUN]
+[0m05:53:24  62 of 82 PASS not_null_fct_flight_bookings_airport_dst ......................... [[32mPASS[0m in 0.04s]
+[0m05:53:24  63 of 82 START test not_null_fct_flight_bookings_airport_src ................... [RUN]
+[0m05:53:24  63 of 82 PASS not_null_fct_flight_bookings_airport_src ......................... [[32mPASS[0m in 0.04s]
+[0m05:53:24  64 of 82 START test not_null_fct_flight_bookings_booking_date_local ............ [RUN]
+[0m05:53:24  64 of 82 PASS not_null_fct_flight_bookings_booking_date_local .................. [[32mPASS[0m in 0.04s]
+[0m05:53:24  65 of 82 START test not_null_fct_flight_bookings_booking_date_utc .............. [RUN]
+[0m05:53:24  65 of 82 PASS not_null_fct_flight_bookings_booking_date_utc .................... [[32mPASS[0m in 0.03s]
+[0m05:53:24  66 of 82 START test not_null_fct_flight_bookings_customer_id ................... [RUN]
+[0m05:53:24  66 of 82 PASS not_null_fct_flight_bookings_customer_id ......................... [[32mPASS[0m in 0.03s]
+[0m05:53:24  67 of 82 START test not_null_fct_flight_bookings_scheduled_departure_date_local  [RUN]
+[0m05:53:24  67 of 82 PASS not_null_fct_flight_bookings_scheduled_departure_date_local ...... [[32mPASS[0m in 0.03s]
+[0m05:53:24  68 of 82 START test not_null_fct_flight_bookings_scheduled_departure_date_utc .. [RUN]
+[0m05:53:24  68 of 82 PASS not_null_fct_flight_bookings_scheduled_departure_date_utc ........ [[32mPASS[0m in 0.03s]
+[0m05:53:24  69 of 82 START test not_null_fct_flight_bookings_scheduled_departure_time_local  [RUN]
+[0m05:53:24  69 of 82 PASS not_null_fct_flight_bookings_scheduled_departure_time_local ...... [[32mPASS[0m in 0.03s]
+[0m05:53:24  70 of 82 START test not_null_fct_flight_bookings_scheduled_departure_time_utc .. [RUN]
+[0m05:53:24  70 of 82 PASS not_null_fct_flight_bookings_scheduled_departure_time_utc ........ [[32mPASS[0m in 0.05s]
+[0m05:53:24  71 of 82 START test not_null_fct_flight_bookings_sk_booking_id ................. [RUN]
+[0m05:53:24  71 of 82 PASS not_null_fct_flight_bookings_sk_booking_id ....................... [[32mPASS[0m in 0.04s]
+[0m05:53:24  72 of 82 START test not_null_fct_flight_bookings_trip_id ....................... [RUN]
+[0m05:53:25  72 of 82 PASS not_null_fct_flight_bookings_trip_id ............................. [[32mPASS[0m in 0.05s]
+[0m05:53:25  73 of 82 START test not_null_fct_hotel_bookings_booking_date_local ............. [RUN]
+[0m05:53:25  73 of 82 PASS not_null_fct_hotel_bookings_booking_date_local ................... [[32mPASS[0m in 0.05s]
+[0m05:53:25  74 of 82 START test not_null_fct_hotel_bookings_booking_date_utc ............... [RUN]
+[0m05:53:25  74 of 82 PASS not_null_fct_hotel_bookings_booking_date_utc ..................... [[32mPASS[0m in 0.04s]
+[0m05:53:25  75 of 82 START test not_null_fct_hotel_bookings_check_in_date_local ............ [RUN]
+[0m05:53:25  75 of 82 PASS not_null_fct_hotel_bookings_check_in_date_local .................. [[32mPASS[0m in 0.03s]
+[0m05:53:25  76 of 82 START test not_null_fct_hotel_bookings_check_in_date_utc .............. [RUN]
+[0m05:53:25  76 of 82 PASS not_null_fct_hotel_bookings_check_in_date_utc .................... [[32mPASS[0m in 0.03s]
+[0m05:53:25  77 of 82 START test not_null_fct_hotel_bookings_check_out_date_local ........... [RUN]
+[0m05:53:25  77 of 82 PASS not_null_fct_hotel_bookings_check_out_date_local ................. [[32mPASS[0m in 0.03s]
+[0m05:53:25  78 of 82 START test not_null_fct_hotel_bookings_check_out_date_utc ............. [RUN]
+[0m05:53:25  78 of 82 PASS not_null_fct_hotel_bookings_check_out_date_utc ................... [[32mPASS[0m in 0.04s]
+[0m05:53:25  79 of 82 START test not_null_fct_hotel_bookings_customer_id .................... [RUN]
+[0m05:53:25  79 of 82 PASS not_null_fct_hotel_bookings_customer_id .......................... [[32mPASS[0m in 0.04s]
+[0m05:53:25  80 of 82 START test not_null_fct_hotel_bookings_hotel_id ....................... [RUN]
+[0m05:53:25  80 of 82 PASS not_null_fct_hotel_bookings_hotel_id ............................. [[32mPASS[0m in 0.04s]
+[0m05:53:25  81 of 82 START test not_null_fct_hotel_bookings_sk_booking_id .................. [RUN]
+[0m05:53:25  81 of 82 PASS not_null_fct_hotel_bookings_sk_booking_id ........................ [[32mPASS[0m in 0.04s]
+[0m05:53:25  82 of 82 START test not_null_fct_hotel_bookings_trip_id ........................ [RUN]
+[0m05:53:25  82 of 82 PASS not_null_fct_hotel_bookings_trip_id .............................. [[32mPASS[0m in 0.04s]
+[0m05:53:25  
+[0m05:53:25  Running dbt Constraints
+[0m05:53:25  Creating not null constraint for: nk_aircraft_id in "pactravel"."stg-datamart"."dim_aircrafts"
+[0m05:53:25  Creating not null constraint for: sk_aircraft_id in "pactravel"."stg-datamart"."dim_aircrafts"
+[0m05:53:25  Creating not null constraint for: nk_airline_id in "pactravel"."stg-datamart"."dim_airlines"
+[0m05:53:25  Creating not null constraint for: sk_airline_id in "pactravel"."stg-datamart"."dim_airlines"
+[0m05:53:25  Creating not null constraint for: nk_airport_id in "pactravel"."stg-datamart"."dim_airports"
+[0m05:53:25  Creating not null constraint for: sk_airport_id in "pactravel"."stg-datamart"."dim_airports"
+[0m05:53:25  Creating not null constraint for: nk_customer_id in "pactravel"."stg-datamart"."dim_customers"
+[0m05:53:25  Creating not null constraint for: sk_customer_id in "pactravel"."stg-datamart"."dim_customers"
+[0m05:53:25  Creating not null constraint for: date_id in "pactravel"."stg-datamart"."dim_dates"
+[0m05:53:25  Creating not null constraint for: nk_hotel_id in "pactravel"."stg-datamart"."dim_hotel"
+[0m05:53:25  Creating not null constraint for: sk_hotels_id in "pactravel"."stg-datamart"."dim_hotel"
+[0m05:53:25  Creating not null constraint for: time_id in "pactravel"."stg-datamart"."dim_times"
+[0m05:53:25  Creating not null constraint for: nk_trip_id in "pactravel"."stg-datamart"."dim_trip"
+[0m05:53:25  Creating not null constraint for: sk_trip_id in "pactravel"."stg-datamart"."dim_trip"
+[0m05:53:25  Creating not null constraint for: booking_date_local in "pactravel"."stg-datamart"."fct_bookings"
+[0m05:53:25  Creating not null constraint for: booking_date_utc in "pactravel"."stg-datamart"."fct_bookings"
+[0m05:53:25  Creating not null constraint for: customer_id in "pactravel"."stg-datamart"."fct_bookings"
+[0m05:53:25  Creating not null constraint for: sk_booking_id in "pactravel"."stg-datamart"."fct_bookings"
+[0m05:53:25  Creating not null constraint for: trip_date_local in "pactravel"."stg-datamart"."fct_bookings"
+[0m05:53:25  Creating not null constraint for: trip_date_utc in "pactravel"."stg-datamart"."fct_bookings"
+[0m05:53:25  Creating not null constraint for: trip_id in "pactravel"."stg-datamart"."fct_bookings"
+[0m05:53:25  Creating not null constraint for: aircraft_id in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:25  Creating not null constraint for: airline_id in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: airport_dst in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: airport_src in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: booking_date_local in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: booking_date_utc in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: customer_id in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: scheduled_departure_date_local in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: scheduled_departure_date_utc in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: scheduled_departure_time_local in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: scheduled_departure_time_utc in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: sk_booking_id in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: trip_id in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: booking_date_local in "pactravel"."stg-datamart"."fct_hotel_bookings"
+[0m05:53:26  Creating not null constraint for: booking_date_utc in "pactravel"."stg-datamart"."fct_hotel_bookings"
+[0m05:53:26  Creating not null constraint for: check_in_date_local in "pactravel"."stg-datamart"."fct_hotel_bookings"
+[0m05:53:26  Creating not null constraint for: check_in_date_utc in "pactravel"."stg-datamart"."fct_hotel_bookings"
+[0m05:53:26  Creating not null constraint for: check_out_date_local in "pactravel"."stg-datamart"."fct_hotel_bookings"
+[0m05:53:26  Creating not null constraint for: check_out_date_utc in "pactravel"."stg-datamart"."fct_hotel_bookings"
+[0m05:53:26  Creating not null constraint for: customer_id in "pactravel"."stg-datamart"."fct_hotel_bookings"
+[0m05:53:26  Creating not null constraint for: hotel_id in "pactravel"."stg-datamart"."fct_hotel_bookings"
+[0m05:53:26  Creating not null constraint for: sk_booking_id in "pactravel"."stg-datamart"."fct_hotel_bookings"
+[0m05:53:26  Creating not null constraint for: trip_id in "pactravel"."stg-datamart"."fct_hotel_bookings"
+[0m05:53:26  Creating not null constraint for: sk_aircraft_id in "pactravel"."stg-datamart"."dim_aircrafts"
+[0m05:53:26  Creating not null constraint for: sk_airline_id in "pactravel"."stg-datamart"."dim_airlines"
+[0m05:53:26  Creating not null constraint for: sk_airport_id in "pactravel"."stg-datamart"."dim_airports"
+[0m05:53:26  Creating not null constraint for: sk_customer_id in "pactravel"."stg-datamart"."dim_customers"
+[0m05:53:26  Creating not null constraint for: date_id in "pactravel"."stg-datamart"."dim_dates"
+[0m05:53:26  Creating not null constraint for: sk_hotels_id in "pactravel"."stg-datamart"."dim_hotel"
+[0m05:53:26  Creating not null constraint for: time_id in "pactravel"."stg-datamart"."dim_times"
+[0m05:53:26  Creating not null constraint for: sk_trip_id in "pactravel"."stg-datamart"."dim_trip"
+[0m05:53:26  Creating not null constraint for: sk_booking_id in "pactravel"."stg-datamart"."fct_bookings"
+[0m05:53:26  Creating not null constraint for: sk_booking_id in "pactravel"."stg-datamart"."fct_flight_bookings"
+[0m05:53:26  Creating not null constraint for: sk_booking_id in "pactravel"."stg-datamart"."fct_hotel_bookings"
+[0m05:53:27  Finished dbt Constraints
+[0m05:53:27  1 of 1 START hook: dbt_constraints.on-run-end.0 ................................ [RUN]
+[0m05:53:27  1 of 1 OK hook: dbt_constraints.on-run-end.0 ................................... [[32mOK[0m in 1.88s]
+[0m05:53:27  
+[0m05:53:27  Finished running 1 project hook, 82 data tests in 0 hours 0 minutes and 5.64 seconds (5.64s).
+[0m05:53:27  
+[0m05:53:27  [32mCompleted successfully[0m
+[0m05:53:27  
+[0m05:53:27  Done. PASS=83 WARN=0 ERROR=0 SKIP=0 TOTAL=83

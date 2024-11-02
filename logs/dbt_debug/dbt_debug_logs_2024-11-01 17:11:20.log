@@ -1,0 +1,36 @@
+[0m10:11:23  Running with dbt=1.9.0-b2
+[0m10:11:23  dbt version: 1.9.0-b2
+[0m10:11:23  python version: 3.10.12
+[0m10:11:23  python path: /usr/bin/python3
+[0m10:11:23  os info: Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[0m10:11:23  Using profiles dir at /home/istywhyerlina/.dbt
+[0m10:11:23  Using profiles.yml file at /home/istywhyerlina/.dbt/profiles.yml
+[0m10:11:23  Using dbt_project.yml file at /home/istywhyerlina/datastorage_w7/pactravel/dbt_project.yml
+[0m10:11:23  adapter type: postgres
+[0m10:11:23  adapter version: 1.8.2
+[0m10:11:23  Configuration:
+[0m10:11:23    profiles.yml file [[32mOK found and valid[0m]
+[0m10:11:23    dbt_project.yml file [[32mOK found and valid[0m]
+[0m10:11:23  Required dependencies:
+[0m10:11:23   - git [[32mOK found[0m]
+
+[0m10:11:23  Connection:
+[0m10:11:23    host: localhost
+[0m10:11:23    port: 5442
+[0m10:11:23    user: postgres
+[0m10:11:23    database: pactravel
+[0m10:11:23    schema: stg-datamart
+[0m10:11:23    connect_timeout: 10
+[0m10:11:23    role: None
+[0m10:11:23    search_path: None
+[0m10:11:23    keepalives_idle: 0
+[0m10:11:23    sslmode: None
+[0m10:11:23    sslcert: None
+[0m10:11:23    sslkey: None
+[0m10:11:23    sslrootcert: None
+[0m10:11:23    application_name: dbt
+[0m10:11:23    retries: 1
+[0m10:11:23  Registered adapter: postgres=1.8.2
+[0m10:11:24    Connection test: [[32mOK connection ok[0m]
+
+[0m10:11:24  [32mAll checks passed![0m

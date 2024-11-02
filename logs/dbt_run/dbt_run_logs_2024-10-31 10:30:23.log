@@ -1,0 +1,47 @@
+[0m03:30:45  Running with dbt=1.9.0-b2
+[0m03:30:46  Registered adapter: postgres=1.8.2
+[0m03:30:46  Found 15 models, 2 seeds, 1 operation, 63 data tests, 7 sources, 889 macros
+[0m03:30:46  
+[0m03:30:46  Concurrency: 1 threads (target='dev')
+[0m03:30:46  
+[0m03:30:46  1 of 15 START sql view model stg-datamart.stg_pactravel__aircrafts ............. [RUN]
+[0m03:30:46  1 of 15 OK created sql view model stg-datamart.stg_pactravel__aircrafts ........ [[32mCREATE VIEW[0m in 0.09s]
+[0m03:30:46  2 of 15 START sql view model stg-datamart.stg_pactravel__airlines .............. [RUN]
+[0m03:30:46  2 of 15 OK created sql view model stg-datamart.stg_pactravel__airlines ......... [[32mCREATE VIEW[0m in 0.04s]
+[0m03:30:46  3 of 15 START sql view model stg-datamart.stg_pactravel__airports .............. [RUN]
+[0m03:30:46  3 of 15 OK created sql view model stg-datamart.stg_pactravel__airports ......... [[32mCREATE VIEW[0m in 0.03s]
+[0m03:30:46  4 of 15 START sql view model stg-datamart.stg_pactravel__customers ............. [RUN]
+[0m03:30:46  4 of 15 OK created sql view model stg-datamart.stg_pactravel__customers ........ [[32mCREATE VIEW[0m in 0.04s]
+[0m03:30:46  5 of 15 START sql view model stg-datamart.stg_pactravel__flight_bookings ....... [RUN]
+[0m03:30:46  5 of 15 OK created sql view model stg-datamart.stg_pactravel__flight_bookings .. [[32mCREATE VIEW[0m in 0.04s]
+[0m03:30:46  6 of 15 START sql view model stg-datamart.stg_pactravel__hotel ................. [RUN]
+[0m03:30:46  6 of 15 OK created sql view model stg-datamart.stg_pactravel__hotel ............ [[32mCREATE VIEW[0m in 0.04s]
+[0m03:30:46  7 of 15 START sql view model stg-datamart.stg_pactravel__hotel_bookings ........ [RUN]
+[0m03:30:46  7 of 15 OK created sql view model stg-datamart.stg_pactravel__hotel_bookings ... [[32mCREATE VIEW[0m in 0.04s]
+[0m03:30:46  8 of 15 START sql table model stg-datamart.dim_aircrafts ....................... [RUN]
+[0m03:30:46  8 of 15 OK created sql table model stg-datamart.dim_aircrafts .................. [[32mSELECT 246[0m in 0.10s]
+[0m03:30:46  9 of 15 START sql table model stg-datamart.dim_airlines ........................ [RUN]
+[0m03:30:46  9 of 15 OK created sql table model stg-datamart.dim_airlines ................... [[32mSELECT 1251[0m in 0.04s]
+[0m03:30:46  10 of 15 START sql table model stg-datamart.dim_airports ....................... [RUN]
+[0m03:30:46  10 of 15 OK created sql table model stg-datamart.dim_airports .................. [[32mSELECT 105[0m in 0.04s]
+[0m03:30:46  11 of 15 START sql table model stg-datamart.dim_customers ...................... [RUN]
+[0m03:30:47  11 of 15 OK created sql table model stg-datamart.dim_customers ................. [[32mSELECT 1000[0m in 0.05s]
+[0m03:30:47  12 of 15 START sql table model stg-datamart.dim_hotel .......................... [RUN]
+[0m03:30:47  12 of 15 OK created sql table model stg-datamart.dim_hotel ..................... [[32mSELECT 1470[0m in 0.05s]
+[0m03:30:47  13 of 15 START sql table model stg-datamart.fct_flight_bookings ................ [RUN]
+[0m03:30:48  13 of 15 OK created sql table model stg-datamart.fct_flight_bookings ........... [[32mSELECT 8190[0m in 1.14s]
+[0m03:30:48  14 of 15 START sql table model stg-datamart.fct_hotel_bookings ................. [RUN]
+[0m03:30:49  14 of 15 OK created sql table model stg-datamart.fct_hotel_bookings ............ [[32mSELECT 217[0m in 1.32s]
+[0m03:30:49  15 of 15 START sql table model stg-datamart.fct_bookings ....................... [RUN]
+[0m03:30:49  15 of 15 OK created sql table model stg-datamart.fct_bookings .................. [[32mSELECT 8407[0m in 0.07s]
+[0m03:30:49  
+[0m03:30:49  Running dbt Constraints
+[0m03:30:49  Finished dbt Constraints
+[0m03:30:49  1 of 1 START hook: dbt_constraints.on-run-end.0 ................................ [RUN]
+[0m03:30:49  1 of 1 OK hook: dbt_constraints.on-run-end.0 ................................... [[32mOK[0m in 0.04s]
+[0m03:30:49  
+[0m03:30:49  Finished running 1 project hook, 8 table models, 7 view models in 0 hours 0 minutes and 3.29 seconds (3.29s).
+[0m03:30:49  
+[0m03:30:49  [32mCompleted successfully[0m
+[0m03:30:49  
+[0m03:30:49  Done. PASS=16 WARN=0 ERROR=0 SKIP=0 TOTAL=16

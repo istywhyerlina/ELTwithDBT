@@ -1,0 +1,64 @@
+[0m10:10:19  Running with dbt=1.9.0-b2
+[0m10:10:19  Registered adapter: postgres=1.8.2
+[0m10:10:20  Found 16 models, 2 seeds, 1 operation, 63 data tests, 7 sources, 889 macros
+[0m10:10:20  
+[0m10:10:20  Concurrency: 1 threads (target='dev')
+[0m10:10:20  
+[0m10:10:20  1 of 81 START sql view model stg-datamart.stg_pactravel__aircrafts ............. [RUN]
+[0m10:10:20  1 of 81 OK created sql view model stg-datamart.stg_pactravel__aircrafts ........ [[32mCREATE VIEW[0m in 0.14s]
+[0m10:10:20  2 of 81 START sql view model stg-datamart.stg_pactravel__airlines .............. [RUN]
+[0m10:10:21  2 of 81 OK created sql view model stg-datamart.stg_pactravel__airlines ......... [[32mCREATE VIEW[0m in 0.06s]
+[0m10:10:21  3 of 81 START sql view model stg-datamart.stg_pactravel__airports .............. [RUN]
+[0m10:10:21  3 of 81 OK created sql view model stg-datamart.stg_pactravel__airports ......... [[32mCREATE VIEW[0m in 0.06s]
+[0m10:10:21  4 of 81 START sql view model stg-datamart.stg_pactravel__customers ............. [RUN]
+[0m10:10:21  4 of 81 OK created sql view model stg-datamart.stg_pactravel__customers ........ [[32mCREATE VIEW[0m in 0.15s]
+[0m10:10:21  5 of 81 START sql view model stg-datamart.stg_pactravel__flight_bookings ....... [RUN]
+[0m10:10:21  5 of 81 OK created sql view model stg-datamart.stg_pactravel__flight_bookings .. [[32mCREATE VIEW[0m in 0.07s]
+[0m10:10:21  6 of 81 START sql view model stg-datamart.stg_pactravel__hotel ................. [RUN]
+[0m10:10:21  6 of 81 OK created sql view model stg-datamart.stg_pactravel__hotel ............ [[32mCREATE VIEW[0m in 0.06s]
+[0m10:10:21  7 of 81 START sql view model stg-datamart.stg_pactravel__hotel_bookings ........ [RUN]
+[0m10:10:21  7 of 81 OK created sql view model stg-datamart.stg_pactravel__hotel_bookings ... [[32mCREATE VIEW[0m in 0.05s]
+[0m10:10:21  8 of 81 START seed file stg-datamart.dim_dates ................................. [RUN]
+[0m10:11:01  CANCEL query seed.pactravel.dim_dates .......................................... [[31mCANCEL[0m]
+[0m10:11:15  8 of 81 ERROR loading seed file stg-datamart.dim_dates ......................... [[31mERROR[0m in 53.99s]
+[0m10:11:15  
+[0m10:11:15  [33mExited because of keyboard interrupt[0m
+[0m10:11:15  
+[0m10:11:15  Done. PASS=7 WARN=0 ERROR=0 SKIP=0 TOTAL=7
+[0m10:11:15  
+[0m10:11:15  Finished running 7 view models in 0 hours 0 minutes and 54.77 seconds (54.77s).
+[0m10:11:15  Encountered an error:
+
+[0m10:11:15  Traceback (most recent call last):
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/cli/requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/cli/requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/cli/requires.py", line 235, in wrapper
+    return func(*args, **kwargs)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/cli/requires.py", line 264, in wrapper
+    return func(*args, **kwargs)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/cli/requires.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/cli/requires.py", line 328, in wrapper
+    return func(*args, **kwargs)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/cli/main.py", line 204, in build
+    results = task.run()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/task/runnable.py", line 577, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/task/runnable.py", line 519, in execute_with_hooks
+    res = self.execute_nodes()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/task/runnable.py", line 405, in execute_nodes
+    self.run_queue(pool)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/task/runnable.py", line 324, in run_queue
+    self.handle_job_queue(pool, callback)
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/task/build.py", line 131, in handle_job_queue
+    node = self.job_queue.get()
+  File "/home/istywhyerlina/.local/lib/python3.10/site-packages/dbt/graph/queue.py", line 133, in get
+    _, node_id = self.inner.get(block=block, timeout=timeout)
+  File "/usr/lib/python3.10/queue.py", line 171, in get
+    self.not_empty.wait()
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+

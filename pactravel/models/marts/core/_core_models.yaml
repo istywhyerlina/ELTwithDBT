@@ -1,0 +1,363 @@
+version: 2
+
+models:
+  - name: dim_trip
+    description: "Dimension table for trip table staging"
+    columns:
+      - name: sk_trip_id
+        description: "Surrogate Key for trip"
+        tests:
+          - not_null
+          - dbt_constraints.primary_key
+
+      - name: nk_trip_id
+        description: "Natural Key for trip"
+        tests:
+          - not_null
+
+  - name: dim_aircrafts
+    description: "Dimension table for aircrafts table staging"
+    columns:
+      - name: sk_aircraft_id
+        description: "Surrogate Key for aircraft_code"
+        tests:
+          - not_null
+          - dbt_constraints.primary_key
+
+      - name: nk_aircraft_id
+        description: "Natural Key for aircraft_code"
+        tests:
+          - not_null
+
+  - name: dim_airlines
+    description: "Dimension table for airlines table staging"
+    columns:
+      - name: sk_airline_id
+        description: "Surrogate Key for airline_id"
+        tests:
+          - not_null
+          - dbt_constraints.primary_key
+
+      - name: nk_airline_id
+        description: "Natural Key for airline_id"
+        tests:
+          - not_null
+
+  - name: dim_airports
+    description: "Dimension table from airports table staging"
+    columns:
+      - name: sk_airport_id
+        description: "Surrogate Key for airport_id"
+        tests:
+          - not_null
+          - dbt_constraints.primary_key
+
+      - name: nk_airport_id
+        description: "Natural Key for airport_id"
+        tests:
+          - not_null
+
+
+  - name: dim_customers
+    description: "Dimension table from Tickets table staging"
+    columns:
+      - name: sk_customer_id
+        description: "Surrogate Key for customer_id"
+        tests:
+          - not_null
+          - dbt_constraints.primary_key
+
+      - name: nk_customer_id
+        description: "Natural Key for customer_id"
+        tests:
+          - not_null
+
+  - name: dim_hotel
+    description: "Dimension table from Tickets table staging"
+    columns:
+      - name: sk_hotels_id
+        description: "Surrogate Key for hotel_id"
+        tests:
+          - not_null
+          - dbt_constraints.primary_key
+
+      - name: nk_hotel_id
+        description: "Natural Key for hotel_id"
+        tests:
+          - not_null
+
+
+  - name: dim_dates
+    description: "Dimension table for dates table"
+    columns:
+      - name: date_id
+        description: "Primary Key for dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.primary_key
+
+  - name: dim_times
+    description: "Dimension table for times table"
+    columns:
+      - name: time_id
+        description: "Primary Key for dim_times"
+        tests:
+          - not_null
+          - dbt_constraints.primary_key
+
+  - name: fct_flight_bookings
+    description: "Fact table for flight_bookings"
+    columns:
+      - name: sk_booking_id
+        description: "Surrogate Key for flight_bookings"
+        tests:
+          - not_null
+          - dbt_constraints.primary_key
+
+      - name: trip_id
+        description: "Natural Key for trip_id"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_trip')
+              pk_column_name: sk_trip_id      
+      
+      - name: customer_id
+        description: "Foreign Key from dim_customers"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_customers')
+              pk_column_name: sk_customer_id
+
+      - name: airline_id
+        description: "Foreign Key from dim_airlines"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_airlines')
+              pk_column_name: sk_airline_id
+
+      - name: aircraft_id
+        description: "Foreign Key from dim_aircrafts"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_aircrafts')
+              pk_column_name: sk_aircraft_id
+
+      - name: airport_src
+        description: "Foreign Key for departure_airport from dim_airports"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_airports')
+              pk_column_name: sk_airport_id
+
+      - name: airport_dst
+        description: "Foreign Key for arrival_airport from dim_airports"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_airports')
+              pk_column_name: sk_airport_id
+
+      - name: booking_date_local
+        description: "booking_date in local time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+      - name: booking_date_utc
+        description: "booking_date in utc time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+
+
+
+      - name: scheduled_departure_date_local
+        description: "schedule_departure_date in utc time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+
+      - name: scheduled_departure_date_utc
+        description: "schedule_departure_date in utc time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+      - name: scheduled_departure_time_local
+        description: "schedule_departure_time in local time from dim_times"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_times')
+              pk_column_name: time_id
+
+      - name: scheduled_departure_time_utc
+        description: "schedule_departure_time in utc time from dim_times"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_times')
+              pk_column_name: time_id
+
+
+  - name: fct_hotel_bookings
+    description: "Fact table for hotel_bookings"
+    columns:
+      - name: sk_booking_id
+        description: "Surrogate Key for hotel_bookings"
+        tests:
+          - not_null
+          - dbt_constraints.primary_key
+
+      - name: trip_id
+        description: "Natural Key for trip_id"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_trip')
+              pk_column_name: sk_trip_id      
+      
+      - name: customer_id
+        description: "Foreign Key from dim_customers"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_customers')
+              pk_column_name: sk_customer_id
+
+      - name: hotel_id
+        description: "Foreign Key from dim_hotel"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_hotel')
+              pk_column_name: sk_hotels_id
+
+      - name: check_in_date_local
+        description: "check_in_date in local time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+      - name: check_in_date_utc
+        description: "check_in_date in utc time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+
+      - name: check_out_date_local
+        description: "check_out_date in local time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+      - name: check_out_date_utc
+        description: "check_out_date in utc time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+      - name: booking_date_local
+        description: "booking_date in local time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+      - name: booking_date_utc
+        description: "booking_date in utc time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+
+
+
+
+  - name: fct_bookings
+    description: "Fact table for bookings"
+    columns:
+      - name: sk_booking_id
+        description: "Surrogate Key for bookings"
+        tests:
+          - not_null
+          - dbt_constraints.primary_key
+
+
+      - name: customer_id
+        description: "Foreign Key from dim_customers"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_customers')
+              pk_column_name: sk_customer_id
+
+      - name: trip_date_local
+        description: "trip_date in local time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+      - name: trip_date_utc
+        description: "trip_date in utc time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+      - name: trip_id
+        description: "Natural Key for trip_id"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_trip')
+              pk_column_name: sk_trip_id      
+
+      - name: booking_date_local
+        description: "booking_date in local time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+      - name: booking_date_utc
+        description: "booking_date in utc time from dim_dates"
+        tests:
+          - not_null
+          - dbt_constraints.foreign_key:
+              pk_table_name: ref('dim_dates')
+              pk_column_name: date_id
+
+
+

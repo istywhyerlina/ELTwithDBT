@@ -1,0 +1,155 @@
+2024-11-02 13:28:22,215 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-02 13:28:22,221 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-02 13:28:22,229 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-02 13:28:22,233 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-02 13:28:22,240 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-02 13:28:22,343 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-02 13:28:22,348 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-02 13:28:22,360 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-02 13:28:22,360 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-02 13:28:22,362 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-02 13:28:22,362 - INFO - [pid 194889] Worker Worker(salt=4896890814, workers=1, host=Erlina, username=istywhyerlina, pid=194889) done      Extract()
+2024-11-02 13:28:22,364 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 13:28:22,364 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-02 13:28:22,365 - DEBUG - Asking scheduler for work...
+2024-11-02 13:28:22,365 - DEBUG - Pending tasks: 5
+2024-11-02 13:28:22,365 - INFO - [pid 194889] Worker Worker(salt=4896890814, workers=1, host=Erlina, username=istywhyerlina, pid=194889) running   Load()
+2024-11-02 13:28:22,366 - INFO - Read Load Query - SUCCESS
+2024-11-02 13:28:22,401 - INFO - Read Extracted Data - SUCCESS
+2024-11-02 13:28:22,412 - INFO - Connect to DWH - SUCCESS
+2024-11-02 13:28:22,523 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-02 13:28:22,523 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-02 13:28:22,542 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-02 13:28:22,584 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-02 13:28:22,617 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 13:28:22,627 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-02 13:28:22,672 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-02 13:28:23,450 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 13:28:23,467 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-11-02 13:28:23,467 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-11-02 13:28:23,469 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-11-02 13:28:23,470 - INFO - [pid 194889] Worker Worker(salt=4896890814, workers=1, host=Erlina, username=istywhyerlina, pid=194889) done      Load()
+2024-11-02 13:28:23,470 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 13:28:23,471 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-11-02 13:28:23,471 - DEBUG - Asking scheduler for work...
+2024-11-02 13:28:23,471 - DEBUG - Pending tasks: 4
+2024-11-02 13:28:23,472 - INFO - [pid 194889] Worker Worker(salt=4896890814, workers=1, host=Erlina, username=istywhyerlina, pid=194889) running   dbtDebug()
+2024-11-02 13:28:26,917 - INFO - [pid 194889] Worker Worker(salt=4896890814, workers=1, host=Erlina, username=istywhyerlina, pid=194889) done      dbtDebug()
+2024-11-02 13:28:26,918 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 13:28:26,919 - INFO - Informed scheduler that task   dbtDebug__99914b932b   has status   DONE
+2024-11-02 13:28:26,920 - DEBUG - Asking scheduler for work...
+2024-11-02 13:28:26,920 - DEBUG - Pending tasks: 3
+2024-11-02 13:28:26,920 - INFO - [pid 194889] Worker Worker(salt=4896890814, workers=1, host=Erlina, username=istywhyerlina, pid=194889) running   dbtDeps()
+2024-11-02 13:28:35,104 - INFO - [pid 194889] Worker Worker(salt=4896890814, workers=1, host=Erlina, username=istywhyerlina, pid=194889) done      dbtDeps()
+2024-11-02 13:28:35,105 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 13:28:35,106 - INFO - Informed scheduler that task   dbtDeps__99914b932b   has status   DONE
+2024-11-02 13:28:35,106 - DEBUG - Asking scheduler for work...
+2024-11-02 13:28:35,106 - DEBUG - Pending tasks: 2
+2024-11-02 13:28:35,107 - INFO - [pid 194889] Worker Worker(salt=4896890814, workers=1, host=Erlina, username=istywhyerlina, pid=194889) running   dbtRun()
+2024-11-02 13:31:37,473 - INFO - [pid 194889] Worker Worker(salt=4896890814, workers=1, host=Erlina, username=istywhyerlina, pid=194889) done      dbtRun()
+2024-11-02 13:31:37,474 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 13:31:37,475 - INFO - Informed scheduler that task   dbtRun__99914b932b   has status   DONE
+2024-11-02 13:31:37,475 - DEBUG - Asking scheduler for work...
+2024-11-02 13:31:37,476 - DEBUG - Pending tasks: 1
+2024-11-02 13:31:37,476 - INFO - [pid 194889] Worker Worker(salt=4896890814, workers=1, host=Erlina, username=istywhyerlina, pid=194889) running   dbtTest()
+2024-11-02 13:31:47,313 - INFO - [pid 194889] Worker Worker(salt=4896890814, workers=1, host=Erlina, username=istywhyerlina, pid=194889) done      dbtTest()
+2024-11-02 13:31:47,314 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 13:31:47,314 - INFO - Informed scheduler that task   dbtTest__99914b932b   has status   DONE
+2024-11-02 13:31:47,315 - DEBUG - Asking scheduler for work...
+2024-11-02 13:31:47,315 - DEBUG - Done
+2024-11-02 13:31:47,315 - DEBUG - There are no more tasks to run at this time
+2024-11-02 13:31:47,315 - INFO - Worker Worker(salt=4896890814, workers=1, host=Erlina, username=istywhyerlina, pid=194889) was stopped. Shutting down Keep-Alive thread
+2024-11-02 13:31:47,317 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 6 tasks of which:
+* 6 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+    - 1 dbtDebug()
+    - 1 dbtDeps()
+    - 1 dbtRun()
+    ...
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2024-11-02 13:40:12,940 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-11-02 13:40:12,948 - INFO - EXTRACT 'public.aircrafts' - SUCCESS.
+2024-11-02 13:40:12,955 - INFO - EXTRACT 'public.airlines' - SUCCESS.
+2024-11-02 13:40:12,959 - INFO - EXTRACT 'public.airports' - SUCCESS.
+2024-11-02 13:40:12,967 - INFO - EXTRACT 'public.customers' - SUCCESS.
+2024-11-02 13:40:13,065 - INFO - EXTRACT 'public.flight_bookings2' - SUCCESS.
+2024-11-02 13:40:13,071 - INFO - EXTRACT 'public.hotel_bookings2' - SUCCESS.
+2024-11-02 13:40:13,084 - INFO - EXTRACT 'public.hotel' - SUCCESS.
+2024-11-02 13:40:13,085 - INFO - Extract All Tables From Sources - SUCCESS
+2024-11-02 13:40:13,086 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-11-02 13:40:13,087 - INFO - [pid 204746] Worker Worker(salt=9583435827, workers=1, host=Erlina, username=istywhyerlina, pid=204746) done      Extract()
+2024-11-02 13:40:13,088 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 13:40:13,089 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-11-02 13:40:13,089 - DEBUG - Asking scheduler for work...
+2024-11-02 13:40:13,090 - DEBUG - Pending tasks: 5
+2024-11-02 13:40:13,090 - INFO - [pid 204746] Worker Worker(salt=9583435827, workers=1, host=Erlina, username=istywhyerlina, pid=204746) running   Load()
+2024-11-02 13:40:13,091 - INFO - Read Load Query - SUCCESS
+2024-11-02 13:40:13,140 - INFO - Read Extracted Data - SUCCESS
+2024-11-02 13:40:13,152 - INFO - Connect to DWH - SUCCESS
+2024-11-02 13:40:13,233 - INFO - Truncate pactravel Schema in DWH - SUCCESS
+2024-11-02 13:40:13,233 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-11-02 13:40:13,248 - INFO - LOAD 'pactravel_aircrafts' - SUCCESS
+2024-11-02 13:40:13,287 - INFO - LOAD 'pactravel.airlines' - SUCCESS
+2024-11-02 13:40:13,321 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 13:40:13,330 - INFO - LOAD 'pactravel.airports' - SUCCESS
+2024-11-02 13:40:13,377 - INFO - LOAD 'pactravel.hotel' - SUCCESS
+2024-11-02 13:40:14,094 - INFO - LOAD 'pactravel.customers' - SUCCESS
+2024-11-02 13:40:14,111 - INFO - LOAD 'pactravel.hotel_bookings' - SUCCESS
+2024-11-02 13:40:14,111 - INFO - LOAD All Tables To DWH-pactravel - SUCCESS
+2024-11-02 13:40:14,113 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-11-02 13:40:14,114 - INFO - [pid 204746] Worker Worker(salt=9583435827, workers=1, host=Erlina, username=istywhyerlina, pid=204746) done      Load()
+2024-11-02 13:40:14,115 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 13:40:14,116 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-11-02 13:40:14,116 - DEBUG - Asking scheduler for work...
+2024-11-02 13:40:14,116 - DEBUG - Pending tasks: 4
+2024-11-02 13:40:14,116 - INFO - [pid 204746] Worker Worker(salt=9583435827, workers=1, host=Erlina, username=istywhyerlina, pid=204746) running   dbtDebug()
+2024-11-02 13:40:17,731 - INFO - [pid 204746] Worker Worker(salt=9583435827, workers=1, host=Erlina, username=istywhyerlina, pid=204746) done      dbtDebug()
+2024-11-02 13:40:17,732 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 13:40:17,732 - INFO - Informed scheduler that task   dbtDebug__99914b932b   has status   DONE
+2024-11-02 13:40:17,732 - DEBUG - Asking scheduler for work...
+2024-11-02 13:40:17,733 - DEBUG - Pending tasks: 3
+2024-11-02 13:40:17,733 - INFO - [pid 204746] Worker Worker(salt=9583435827, workers=1, host=Erlina, username=istywhyerlina, pid=204746) running   dbtDeps()
+2024-11-02 13:40:27,325 - INFO - [pid 204746] Worker Worker(salt=9583435827, workers=1, host=Erlina, username=istywhyerlina, pid=204746) done      dbtDeps()
+2024-11-02 13:40:27,326 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 13:40:27,327 - INFO - Informed scheduler that task   dbtDeps__99914b932b   has status   DONE
+2024-11-02 13:40:27,327 - DEBUG - Asking scheduler for work...
+2024-11-02 13:40:27,327 - DEBUG - Pending tasks: 2
+2024-11-02 13:40:27,328 - INFO - [pid 204746] Worker Worker(salt=9583435827, workers=1, host=Erlina, username=istywhyerlina, pid=204746) running   dbtRun()
+2024-11-02 13:43:38,234 - INFO - [pid 204746] Worker Worker(salt=9583435827, workers=1, host=Erlina, username=istywhyerlina, pid=204746) done      dbtRun()
+2024-11-02 13:43:38,235 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 13:43:38,236 - INFO - Informed scheduler that task   dbtRun__99914b932b   has status   DONE
+2024-11-02 13:43:38,237 - DEBUG - Asking scheduler for work...
+2024-11-02 13:43:38,237 - DEBUG - Pending tasks: 1
+2024-11-02 13:43:38,237 - INFO - [pid 204746] Worker Worker(salt=9583435827, workers=1, host=Erlina, username=istywhyerlina, pid=204746) running   dbtTest()
+2024-11-02 13:43:48,139 - INFO - [pid 204746] Worker Worker(salt=9583435827, workers=1, host=Erlina, username=istywhyerlina, pid=204746) done      dbtTest()
+2024-11-02 13:43:48,140 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-11-02 13:43:48,141 - INFO - Informed scheduler that task   dbtTest__99914b932b   has status   DONE
+2024-11-02 13:43:48,141 - DEBUG - Asking scheduler for work...
+2024-11-02 13:43:48,141 - DEBUG - Done
+2024-11-02 13:43:48,141 - DEBUG - There are no more tasks to run at this time
+2024-11-02 13:43:48,141 - INFO - Worker Worker(salt=9583435827, workers=1, host=Erlina, username=istywhyerlina, pid=204746) was stopped. Shutting down Keep-Alive thread
+2024-11-02 13:43:48,143 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 6 tasks of which:
+* 6 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+    - 1 dbtDebug()
+    - 1 dbtDeps()
+    - 1 dbtRun()
+    ...
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+/home/istywhyerlina/datastorage_w7/run_etl.sh: 11: python: not found
